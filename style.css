@@ -5,7 +5,7 @@
     /* Change the size of your font to 60 pixels high. */
     font-size: 60px;
     /* This will color the heading font white. */
-    color: white;
+    color: rgb(241, 119, 231);
     /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: center;
     /* Underline the text. */
@@ -45,7 +45,7 @@
 
   /* All p tags */
   p {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     /* Bold the text. */
     font-weight: bold;
@@ -53,7 +53,7 @@
 
   /* All unordered list tags */
   ul {
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     /* Give an element a solid border. */
     border-style: solid;
