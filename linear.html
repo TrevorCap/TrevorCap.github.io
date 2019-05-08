@@ -24,10 +24,10 @@
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="method.html">Methodology</a></li>
-        <li class="active"><a href="linear.html">Linear xStats</a></li>
-        <li><a href="forest.html">Random Forest xStats</a></li>
+        <li class="active"><a href="linear.html">Linear</a></li>
+        <li><a href="forest.html">Random Forest</a></li>
         <li><a href="comparison.html">Comparisons</a></li>
-        <li><a href="data.html">Compiled xStats in a table</a></li>
+        <li><a href="data.html">Compiled xStats</a></li>
       </ul>
 
     </div>
@@ -35,19 +35,44 @@
 </nav>
   
 <div class='container-fluid'>
-    <br>
-    <p>In order to predict the strikeout and walk rates with machine learning, we can use simple linear regression.
+  <h2>Linear Regression</h2>  
+  <p>In order to predict the strikeout and walk rates with machine learning, we can use simple linear regression.
         This is a simple, straightforward way of 
         When regressing the figures with the Random Forest Regressor, we are able to predict the strikeouts, walks, and combined strikeout minus walk rates for pitchers with limited data.</p>
         <br>
-    <p>For expected strikeout rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.46.</p>
-    <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xK2019.png" alt="Expected strikeouts in 2019">
-    <br>
-    <p>For expected walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.06, which is Not Great!</p>
-    <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xBB2019.png" alt="Expected walks in 2019">
-    <br>
-    <p>For expected strikeout minus walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.25.</p>
-    <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xKBB2019.png" alt="Expected strikeouts minus walks in 2019">
+        <hr>
+  <div class="media">
+    <div class="media-left">
+        <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lk.png" alt="Expected strikeouts in 2019" class="media-object" style="width:"px>
+    </div>
+     <div class="media-body">
+        <h4 class="media-heading"><b>Strikeout Rates</b><h4>
+            <p>For expected strikeout rates we are able to use the linear regression for data in April 2019 and come back with basically no correlation and predictions that are wildly improbable.
+              Even though logically, we know that no pitcher could have any rate stats except between 0 and 1, we end up with figures of nearly negative 200%! This prediction is functionally useless.
+            </p>
+      </div>
+     </div>
+     <hr>
+     <div class="media">
+        <div class="media-left">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lb.png" alt="Expected walks in 2019" class="media-object" style="width:"px>
+        </div>
+         <div class="media-body">
+            <h4 class="media-heading"><b>Walk Rates</b><h4>
+                <p>For expected walk rates we do even worse, and as a matter of fact, our correlation is actually, if anything, negative! this means that our predictions are significantly worse than random.</p>
+          </div>
+         </div>
+    <hr>
+    <div class="media">
+        <div class="media-left">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lkb.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
+        </div>
+         <div class="media-body">
+            <h4 class="media-heading"><b>Strikeout minus Walk Rates</b><h4>
+            <p>Obviously, then, combining these two predictions does even worse. This line of best fit is even misleading, because visually we can see that these numbers are more or less randomly distributed among figures that would not make sense as predictions.</p>
+          </div>
+         </div>
+      <hr>
     </div>
 
 </body>
