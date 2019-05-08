@@ -1,20 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trevor Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <h1>Trevor J. Cappa</h1>
-    <h3>Developer</h3>
-    <br>
-    <a href="https://trevorcap.github.io/graphs">A series of graphs that I did on weather with API Pulls and matplotlib.</a>
-    <br>
-    <a href="https://trevorcap.github.io/2019xstats">2019 Expected Stats.</a>
-
-
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+    <a class="navbar-brand" href="#">Trevor Cappa Baseball Stats</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+           <li class="active"><a href="index.html">Home</a></li>
+           <li><a href="linear.html">Linear xStats</a></li>
+           <li><a href="forest.html">Random Forest xStats</a></li>
+          </ul>
+      </div>
+      </div>
+  </nav>
+<div class="container-fluid" >          
+<div class="container-fluid">
+  <h2>Predicting Pitcher Outcomes with Plate Discipline Data</h2>
+     <p>Based on an idea introduced by Ariel Cohen of Fangraphs, I set out to determine pitcher outcomes using plate discipline stats. 
+        When the ball leaves a pitcher's hand, there are six possible outcomes based on three factors:
+     <p> 1. Was the pitch thrown in the zone?</p>
+     <p> 2. Was the pitch swung on?</p>
+     <p> 3. Conditional on the pitch being swung at, was contact made?</p>
+     <p> Based on these three factors, I did two different regressions in order to determine whether we could predict strikeout and walk rates.</p>
+     <br>
+     <br>
+     <hr>
+<div class="media">
+<div class="media-left">
+  <img src="img_avatar1.png" class="media-object" style="width:60px">
+</div>
+ <div class="media-body">
+    <h4 class="media-heading">Linear Regression<h4>
+       <p>The predictions using simple linear regression with the plate discipline stats.</p>
+  </div>
+ </div>
+ <hr>
+ <div class="media">
+  <div class="media-left">
+    <img src="img_avatar1.png" class="media-object" style="width:60px">
+  </div>
+    <div class="media-body">
+      <h4 class="media-heading">Random Forest Regression<h4>
+         <p>The predictions using the Random Forest Regressor with the plate discipline stats.</p>
+    </div>
+   </div>
+<hr>
+<div class="media">
+  <div class="media-left">
+    <img src="img_avatar1.png" class="media-object" style="width:60px">
+  </div>
+    <div class="media-body">
+      <h4 class="media-heading">Comparisons<h4>
+         <p>A side-by-side comparison of the linear vs. Random Forest regressions.</p>
+    </div>
+   </div>
+  <hr>
+</div>   
 </body>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Trevor Cappa Baseball Stats <a href="index.html" title="Visit Trevor Cappa">top</a></p> 
+</footer>
 </html>

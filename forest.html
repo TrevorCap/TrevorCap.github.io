@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Random Forest xStats</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Trevor Cappa Baseball Stats</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="linear.html">Linear xStats</a></li>
+        <li class="active"><a href="forest.html">Random Forest xStats</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+  
+<div class='container-fluid'>
+  <div class="media">
+    <div class="media-left">
+        <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xK2019.png" alt="Expected strikeouts in 2019" class="media-object" style="width:"px>
+    </div>
+     <div class="media-body">
+        <h4 class="media-heading">Strikeout Rates<h4>
+            <p>For expected strikeout rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.46.</p>
+      </div>
+     </div>
+     <hr>
+     <div class="media">
+        <div class="media-left">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xBB2019.png" alt="Expected walks in 2019" class="media-object" style="width:"px>
+        </div>
+         <div class="media-body">
+            <h4 class="media-heading">Walk Rates<h4>
+                <p>For expected walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.06, which is Not Great!</p>
+          </div>
+         </div>
+    <hr>
+    <div class="media">
+        <div class="media-left">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xKBB2019.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
+        </div>
+         <div class="media-body">
+            <h4 class="media-heading">Strikeout minus Walk Rates<h4>
+            <p>For expected strikeout minus walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.25.</p>
+          </div>
+         </div>
+      <hr>
+    </div>
+
+</body>
+</html>
