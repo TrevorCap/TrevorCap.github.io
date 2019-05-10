@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Random Forest xStats</title>
+  <title>Trevor Forest</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -40,12 +40,16 @@
     The drawback to this method is that it is more or less a black box.
     While a decision tree is simple enough to understand, the actual mechanics of this type of regression are not apprant, other than the weight assigned to each variable.
 </p>
+<p>
+  In order to put this regression to practical use, we use the current data up to April 27, 2019 in order to attempt to identify under and over-achieving pitchers.
+</p>
     <br>
         <hr>
         <div class="row">
             <div class="col-sm-8" style="background-color:none;"><h3><b>Strikeout Rates</b></h3>
-              <p>For expected strikeout rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.46.
-              Considering that this data is from April, and as such, is a relatively small sample, this is a strong reult.</p>
+              <p>For expected strikeout rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.45.
+              Considering that this data is from April, and as such, is a relatively small sample, this is a strong result.
+            Being able to explain approximately half of the variation in a pitcher's strikeout rates can give us a general idea of who may be under or over performing relative to their underlying performance.</p>
         </div>
           <div class="col-sm-4" style="background-color:none">
               <div class="media-right">  
@@ -57,9 +61,9 @@
      <hr>
      <div class="row">
         <div class="col-sm-8" style="background-color:none;"><h3><b>Walk Rates</b></h3>
-                <p>For expected walk rates we do even worse, and as a matter of fact, our correlation is actually, if anything, negative! 
-                    This means that our predictions are significantly worse than random.
-                  Linear regression, though it tested fairly well with larger samples, did not create a usable result with the partial season data.</p>
+                <p>For expected walk rates we see a much more significant decline in the prediction quality. Whereas in the in-sample testing, we were able to fit 89% of the variance in a given pitcher's walk rate, with the smaller sample of April, we come away with only 30% of the variation explained by our prediction.
+                  Better than nothing, but still needing improvement.
+                </p>
           </div>
         
      <div class="col-sm-4" style="background-color:none">
@@ -72,8 +76,8 @@
     <div class="row">
         <div class="col-sm-8" style="background-color:none;"><h3><b>Strikout Minus Walk Rates</b></h3>
 
-          <p>For expected strikeout minus walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.25.
-          Considering that this ratio incorporates the two that we predicted separately, it is unsurpring to see this figure fall between the other two.</p></div>
+          <p>For expected strikeout minus walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.23.
+          Considering that this ratio incorporates the two that we predicted separately, it is unsurpring to see this figure be less accurate than either of the other two.</p></div>
       <div class="col-sm-4" style="background-color:none">
         <div class="media-right">
             <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xKBB2019.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
@@ -85,6 +89,10 @@
 </div>
 </body>
 <footer class="container-fluid text-center">
+    <ul class="pager">
+        <li class="previous"><a href="linear.html">Previous</a></li>
+        <li class="next"><a href="comparison.html">Next</a></li>
+      </ul>
   <a href="#" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>

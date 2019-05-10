@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Random Forest xStats</title>
+  <title>Trevor Methodology</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -37,16 +37,39 @@
         <p>In <a href="https://fantasy.fangraphs.com/introducing-weighted-plate-discipline-index-wpdi-for-pitchers/">an article at FanGraphs.com</a> Ariel Cohen detailed an idea for indexing pitchers based on their plate discipline stats.
             I thought that this proposition was an incredible idea, but instead of being indexed against their perceived desirability, it would be prudent to weigh this directly to outcomes.
             As such, I decided to run a series of regressions for these outcomes to strikeout rates, walk rates, and strikeout minus walk rates.
+            This data would be potentially relevant as it could help identify pitchers who are under or over performing relative to their plate discipline numbers.
+          </p>
+          
+          <p>
+           I determined that it would be prudent to regress this with both a linear model, and a more complicated machine learning model.
+           For machine learning, I settled on the Random Forest Regression tool.
+           This splits the data into smaller, random sections and then predicts using a series of decision trees based on that.
+           This allows it to avoid overfitting, while still providing robust regressions.
+           For more information read <a href="https://medium.com/datadriveninvestor/random-forest-regression-9871bc9a25eb">here</a>. 
           </p>
           <p>
-            In order to determine whether this approach would be reasonable, I first downloaded data for all pitcher seasons (minimum 10 innings) from 2013 to 2018.
-            This limit was intentionally set low in an attempt to make the model able to be predictive even in smaller sample sizes.
-          </p>
+              In order to determine whether this approach would be reasonable, I first downloaded data for all pitcher seasons (minimum 10 innings) from 2013 to 2018.
+             I then used each linear and Random Forest Regression in order to create a model for determining whether it could accurately predict in sample metrics.
+            </p>
+            <p>
+              For linear regression, I saw a .67 r<sup>2</sup> for K%, and an r<sup>2</sup> of .61 for K-BB%, and with the linear model completely unable to predict, even in-sample for the BB%.
+              This was relatively encouraging for the linear model as it meant that 67% of the variation in an individual pitcher's strikeout rte could be determined based simply on their plate discipline numbers.
+            </p>
+            <p>
+                With the machine learning regression however, I saw a .93 r<sup>2</sup> for K%, r<sup>2</sup> of .89 for BB%, and an r<sup>2</sup> of .91 for K-BB% in-sample.
+                This was encouraging, as it implied that based on on plate discipline numbers we could explain 90% of the varation in strikeout and walk rates, as well as the combined rate.
+                However it is important to note that when tested in-sample it would be extremely unusual for a decision tree based algorithm to not have a strong relationship with the data it was 'taught' on.
+                As such, we moved on to the data from 2019. 
+              </p>
           <br>
               <hr>
 
 </body>
 <footer class="container-fluid text-center">
+    <ul class="pager">
+        <li class="previous"><a href="index.html">Previous</a></li>
+        <li class="next"><a href="linear.html">Next</a></li>
+      </ul>
   <a href="#" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
