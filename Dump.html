@@ -1,31 +1,93 @@
-<div class="media">
-<div class="media-left">
-    <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xK2019.png" alt="Expected strikeouts in 2019" class="media-object" style="width:"px>
-</div>
- <div class="media-body">
-    <h4 class="media-heading">Strikeout Rates<h4>
-        <p>For expected strikeout rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.46.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Random Forest xStats</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Trevor Cappa Baseball Stats</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="method.html">Methodology</a></li>
+        <li class="active"><a href="linear.html">Linear</a></li>
+        <li><a href="forest.html">Random Forest</a></li>
+        <li><a href="comparison.html">Comparisons</a></li>
+        <li><a href="data.html">Compiled xStats</a></li>
+      </ul>
+
+    </div>
   </div>
- </div>
- <hr>
- <div class="media">
-    <div class="media-left">
-        <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xBB2019.png" alt="Expected walks in 2019" class="media-object" style="width:"px>
-    </div>
-     <div class="media-body">
-        <h4 class="media-heading">Walk Rates<h4>
-            <p>For expected walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.06, which is Not Great!</p>
+</nav>
+</head>
+<body>
+<div class='container-fluid'>
+  <h2>Random Forest Regressor</h2>  
+  <p>In order to predict the strikeout and walk rates with machine learning, we can use random forest regression.
+    This is a simple, straightforward way of implementing machine learning to attempt to predict pitcher outcomes.
+    When regressing the figures with the Random Forest Regressor, we are able to predict the strikeouts, walks, and combined strikeout minus walk rates for pitchers with hopefully, more limited data.
+    The drawback to this method is that it is more or less a black box.
+    While a decision tree is simple enough to understand, the actual mechanics of this type of regression are not apprant, other than the weight assigned to each variable.
+</p>
+    <br>
+        <hr>
+        <div class="row">
+            <div class="col-sm-8" style="background-color:none;"><h3><b>Strikeout Rates</b></h3>
+              <p>For expected strikeout rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.46.
+              Considering that this data is from April, and as such, is a relatively small sample, this is a strong reult.</p>
+        </div>
+          <div class="col-sm-4" style="background-color:none">
+              <div class="media-right">  
+        <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xK2019.png" alt="Expected strikeouts in 2019" class="media-object" style="width:"px>
       </div>
-     </div>
-<hr>
-<div class="media">
-    <div class="media-left">
-        <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xKBB2019.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
-    </div>
-     <div class="media-body">
-        <h4 class="media-heading">Strikeout minus Walk Rates<h4>
-        <p>For expected strikeout minus walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.25.</p>
       </div>
+  
      </div>
-  <hr>
+     <hr>
+     <div class="row">
+        <div class="col-sm-8" style="background-color:none;"><h3><b>Walk Rates</b></h3>
+                <p>For expected walk rates we do even worse, and as a matter of fact, our correlation is actually, if anything, negative! 
+                    This means that our predictions are significantly worse than random.
+                  Linear regression, though it tested fairly well with larger samples, did not create a usable result with the partial season data.</p>
+          </div>
+        
+     <div class="col-sm-4" style="background-color:none">
+        <div class="media-right">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xBB2019.png" alt="Expected walks in 2019" class="media-object" style="width:"px>
+        </div>
 </div>
+</div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-8" style="background-color:none;"><h3><b>Strikout Minus Walk Rates</b></h3>
+
+          <p>For expected strikeout minus walk rates we are able to use the data from April 2019 and come back with an R<sup>2</sup> of 0.25.
+          Considering that this ratio incorporates the two that we predicted separately, it is unsurpring to see this figure fall between the other two.</p></div>
+      <div class="col-sm-4" style="background-color:none">
+        <div class="media-right">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/xKBB2019.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
+        </div>
+         
+         </div>
+      <hr>
+    </div>
+</div>
+</body>
+<footer class="container-fluid text-center">
+  <a href="#" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Trevor Cappa Baseball Stats <a href="#" title="Visit Trevor Cappa">top</a></p> 
+</footer>
+</html>

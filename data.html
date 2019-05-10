@@ -32,6 +32,4589 @@
 </nav>
 </head>
 <body>
+  <div class='container-fluid'>
+      <div class="jumbotron">
+          <h2>Machine Learning Predictions</h2>      
+          <p>Below are the expected strikeout, walk, and strikeout minus walk rates in table form for pitchers through April 27, 2019, based on the Random Forest Regression.</p>
+        </div> 
+  </div>
+  <div class='container-fluid'>
+    <table class="table table-striped table-bordered table-condensed">
+        <thead><tr><th title="Field #1">Name</th>
+        <th title="Field #2">ZLook</th>
+        <th title="Field #3">ZWif</th>
+        <th title="Field #4">ZCon</th>
+        <th title="Field #5">OLook</th>
+        <th title="Field #6">OWif</th>
+        <th title="Field #7">OCon</th>
+        <th title="Field #8">K%</th>
+        <th title="Field #9">xK</th>
+        <th title="Field #10">BB%</th>
+        <th title="Field #11">xBB</th>
+        <th title="Field #12">K-BB%</th>
+        <th title="Field #13">xK-BB</th>
+        </tr></thead>
+        <tbody><tr>
+        <td>Tayron Guerrero</td>
+        <td align="right">0.105317</td>
+        <td align="right">0.08955441</td>
+        <td align="right">0.24212859</td>
+        <td align="right">0.39312</td>
+        <td align="right">0.10197096</td>
+        <td align="right">0.05090904</td>
+        <td align="right">0.283</td>
+        <td align="right">0.387</td>
+        <td align="right">0.152</td>
+        <td align="right">0.0872</td>
+        <td align="right">0.13</td>
+        <td align="right">0.2906</td>
+        </tr>
+        <tr>
+        <td>Josh Hader</td>
+        <td align="right">0.101574</td>
+        <td align="right">0.147290508</td>
+        <td align="right">0.264135492</td>
+        <td align="right">0.41656</td>
+        <td align="right">0.1059434</td>
+        <td align="right">0.1124966</td>
+        <td align="right">0.522</td>
+        <td align="right">0.3863</td>
+        <td align="right">0.087</td>
+        <td align="right">0.102</td>
+        <td align="right">0.435</td>
+        <td align="right">0.2362</td>
+        </tr>
+        <tr>
+        <td>Joe Jimenez</td>
+        <td align="right">0.145392</td>
+        <td align="right">0.092335104</td>
+        <td align="right">0.228272896</td>
+        <td align="right">0.400392</td>
+        <td align="right">0.092997072</td>
+        <td align="right">0.109610928</td>
+        <td align="right">0.319</td>
+        <td align="right">0.3776</td>
+        <td align="right">0.128</td>
+        <td align="right">0.0986</td>
+        <td align="right">0.192</td>
+        <td align="right">0.2372</td>
+        </tr>
+        <tr>
+        <td>Mike Clevinger</td>
+        <td align="right">0.1491</td>
+        <td align="right">0.0828954</td>
+        <td align="right">0.1880046</td>
+        <td align="right">0.41454</td>
+        <td align="right">0.12870732</td>
+        <td align="right">0.04475268</td>
+        <td align="right">0.524</td>
+        <td align="right">0.3726</td>
+        <td align="right">0.095</td>
+        <td align="right">0.1701</td>
+        <td align="right">0.429</td>
+        <td align="right">0.2058</td>
+        </tr>
+        <tr>
+        <td>Jose Alvarado</td>
+        <td align="right">0.193584</td>
+        <td align="right">0.059149504</td>
+        <td align="right">0.183266496</td>
+        <td align="right">0.436982</td>
+        <td align="right">0.09700873</td>
+        <td align="right">0.10300927</td>
+        <td align="right">0.362</td>
+        <td align="right">0.362</td>
+        <td align="right">0.128</td>
+        <td align="right">0.1808</td>
+        <td align="right">0.234</td>
+        <td align="right">0.1708</td>
+        </tr>
+        <tr>
+        <td>Ryne Stanek</td>
+        <td align="right">0.06391</td>
+        <td align="right">0.08496378</td>
+        <td align="right">0.26612622</td>
+        <td align="right">0.387112</td>
+        <td align="right">0.11655336</td>
+        <td align="right">0.07933464</td>
+        <td align="right">0.25</td>
+        <td align="right">0.3581</td>
+        <td align="right">0.058</td>
+        <td align="right">0.0893</td>
+        <td align="right">0.192</td>
+        <td align="right">0.267</td>
+        </tr>
+        <tr>
+        <td>Lou Trivino</td>
+        <td align="right">0.189952</td>
+        <td align="right">0.063121408</td>
+        <td align="right">0.258926592</td>
+        <td align="right">0.29952</td>
+        <td align="right">0.11024</td>
+        <td align="right">0.11024</td>
+        <td align="right">0.364</td>
+        <td align="right">0.3507</td>
+        <td align="right">0.023</td>
+        <td align="right">0.0646</td>
+        <td align="right">0.341</td>
+        <td align="right">0.3087</td>
+        </tr>
+        <tr>
+        <td>Ken Giles</td>
+        <td align="right">0.121437</td>
+        <td align="right">0.058114482</td>
+        <td align="right">0.213448518</td>
+        <td align="right">0.395136</td>
+        <td align="right">0.122275776</td>
+        <td align="right">0.070588224</td>
+        <td align="right">0.352</td>
+        <td align="right">0.3505</td>
+        <td align="right">0.093</td>
+        <td align="right">0.1054</td>
+        <td align="right">0.259</td>
+        <td align="right">0.2461</td>
+        </tr>
+        <tr>
+        <td>Aroldis Chapman</td>
+        <td align="right">0.190092</td>
+        <td align="right">0.076055196</td>
+        <td align="right">0.244852804</td>
+        <td align="right">0.471696</td>
+        <td align="right">0.084722688</td>
+        <td align="right">0.077581312</td>
+        <td align="right">0.326</td>
+        <td align="right">0.3484</td>
+        <td align="right">0.065</td>
+        <td align="right">0.1568</td>
+        <td align="right">0.261</td>
+        <td align="right">0.2451</td>
+        </tr>
+        <tr>
+        <td>Blake Snell</td>
+        <td align="right">0.165942</td>
+        <td align="right">0.0682645</td>
+        <td align="right">0.2047935</td>
+        <td align="right">0.38844</td>
+        <td align="right">0.12560184</td>
+        <td align="right">0.07095816</td>
+        <td align="right">0.375</td>
+        <td align="right">0.3481</td>
+        <td align="right">0.058</td>
+        <td align="right">0.1258</td>
+        <td align="right">0.317</td>
+        <td align="right">0.2284</td>
+        </tr>
+        <tr>
+        <td>Reyes Moronta</td>
+        <td align="right">0.1694</td>
+        <td align="right">0.0725208</td>
+        <td align="right">0.1980792</td>
+        <td align="right">0.3864</td>
+        <td align="right">0.0675304</td>
+        <td align="right">0.1060696</td>
+        <td align="right">0.409</td>
+        <td align="right">0.348</td>
+        <td align="right">0.091</td>
+        <td align="right">0.1354</td>
+        <td align="right">0.318</td>
+        <td align="right">0.2012</td>
+        </tr>
+        <tr>
+        <td>Joshua James</td>
+        <td align="right">0.120064</td>
+        <td align="right">0.089327616</td>
+        <td align="right">0.259608384</td>
+        <td align="right">0.426384</td>
+        <td align="right">0.086900688</td>
+        <td align="right">0.053715312</td>
+        <td align="right">0.328</td>
+        <td align="right">0.3462</td>
+        <td align="right">0.148</td>
+        <td align="right">0.1609</td>
+        <td align="right">0.18</td>
+        <td align="right">0.2256</td>
+        </tr>
+        <tr>
+        <td>Jake Diekman</td>
+        <td align="right">0.163328</td>
+        <td align="right">0.071259264</td>
+        <td align="right">0.229412736</td>
+        <td align="right">0.416823</td>
+        <td align="right">0.074683686</td>
+        <td align="right">0.069493314</td>
+        <td align="right">0.267</td>
+        <td align="right">0.3453</td>
+        <td align="right">0.133</td>
+        <td align="right">0.1202</td>
+        <td align="right">0.133</td>
+        <td align="right">0.2154</td>
+        </tr>
+        <tr>
+        <td>Adam Morgan</td>
+        <td align="right">0.1728</td>
+        <td align="right">0.0502848</td>
+        <td align="right">0.2089152</td>
+        <td align="right">0.30666</td>
+        <td align="right">0.12237886</td>
+        <td align="right">0.10896114</td>
+        <td align="right">0.324</td>
+        <td align="right">0.3445</td>
+        <td align="right">0.054</td>
+        <td align="right">0.0605</td>
+        <td align="right">0.27</td>
+        <td align="right">0.266</td>
+        </tr>
+        <tr>
+        <td>Sam Gaviglio</td>
+        <td align="right">0.184943</td>
+        <td align="right">0.054442773</td>
+        <td align="right">0.233614227</td>
+        <td align="right">0.41684</td>
+        <td align="right">0.13280032</td>
+        <td align="right">0.06335968</td>
+        <td align="right">0.296</td>
+        <td align="right">0.3358</td>
+        <td align="right">0.037</td>
+        <td align="right">0.1067</td>
+        <td align="right">0.259</td>
+        <td align="right">0.2026</td>
+        </tr>
+        <tr>
+        <td>Max Scherzer</td>
+        <td align="right">0.137417</td>
+        <td align="right">0.063663936</td>
+        <td align="right">0.267919064</td>
+        <td align="right">0.39589</td>
+        <td align="right">0.1220427</td>
+        <td align="right">0.0920673</td>
+        <td align="right">0.34</td>
+        <td align="right">0.3311</td>
+        <td align="right">0.031</td>
+        <td align="right">0.0926</td>
+        <td align="right">0.308</td>
+        <td align="right">0.2319</td>
+        </tr>
+        <tr>
+        <td>Wilmer Font</td>
+        <td align="right">0.135888</td>
+        <td align="right">0.074355768</td>
+        <td align="right">0.236756232</td>
+        <td align="right">0.436258</td>
+        <td align="right">0.083976024</td>
+        <td align="right">0.141765976</td>
+        <td align="right">0.34</td>
+        <td align="right">0.3286</td>
+        <td align="right">0.085</td>
+        <td align="right">0.1121</td>
+        <td align="right">0.255</td>
+        <td align="right">0.1871</td>
+        </tr>
+        <tr>
+        <td>Robert Stephenson</td>
+        <td align="right">0.163194</td>
+        <td align="right">0.05062702</td>
+        <td align="right">0.24717898</td>
+        <td align="right">0.391983</td>
+        <td align="right">0.162891807</td>
+        <td align="right">0.024125193</td>
+        <td align="right">0.36</td>
+        <td align="right">0.3249</td>
+        <td align="right">0.08</td>
+        <td align="right">0.103</td>
+        <td align="right">0.28</td>
+        <td align="right">0.2265</td>
+        </tr>
+        <tr>
+        <td>Nick Anderson</td>
+        <td align="right">0.15939</td>
+        <td align="right">0.05507502</td>
+        <td align="right">0.24753498</td>
+        <td align="right">0.378534</td>
+        <td align="right">0.152309404</td>
+        <td align="right">0.067156596</td>
+        <td align="right">0.489</td>
+        <td align="right">0.3237</td>
+        <td align="right">0.044</td>
+        <td align="right">0.0785</td>
+        <td align="right">0.444</td>
+        <td align="right">0.2463</td>
+        </tr>
+        <tr>
+        <td>Jacob deGrom</td>
+        <td align="right">0.132436</td>
+        <td align="right">0.069025824</td>
+        <td align="right">0.250538176</td>
+        <td align="right">0.383846</td>
+        <td align="right">0.078922222</td>
+        <td align="right">0.099231778</td>
+        <td align="right">0.377</td>
+        <td align="right">0.3194</td>
+        <td align="right">0.088</td>
+        <td align="right">0.086</td>
+        <td align="right">0.29</td>
+        <td align="right">0.2004</td>
+        </tr>
+        <tr>
+        <td>Wander Suero</td>
+        <td align="right">0.158299</td>
+        <td align="right">0.10170329</td>
+        <td align="right">0.24899771</td>
+        <td align="right">0.443072</td>
+        <td align="right">0.06913368</td>
+        <td align="right">0.08979432</td>
+        <td align="right">0.31</td>
+        <td align="right">0.3178</td>
+        <td align="right">0.095</td>
+        <td align="right">0.135</td>
+        <td align="right">0.214</td>
+        <td align="right">0.1862</td>
+        </tr>
+        <tr>
+        <td>Gerrit Cole</td>
+        <td align="right">0.127324</td>
+        <td align="right">0.068449932</td>
+        <td align="right">0.262226068</td>
+        <td align="right">0.38226</td>
+        <td align="right">0.09668962</td>
+        <td align="right">0.07505038</td>
+        <td align="right">0.362</td>
+        <td align="right">0.315</td>
+        <td align="right">0.081</td>
+        <td align="right">0.0915</td>
+        <td align="right">0.282</td>
+        <td align="right">0.2286</td>
+        </tr>
+        <tr>
+        <td>Carlos Estevez</td>
+        <td align="right">0.121275</td>
+        <td align="right">0.0971685</td>
+        <td align="right">0.2765565</td>
+        <td align="right">0.451524</td>
+        <td align="right">0.077258736</td>
+        <td align="right">0.044217264</td>
+        <td align="right">0.34</td>
+        <td align="right">0.3149</td>
+        <td align="right">0.06</td>
+        <td align="right">0.1923</td>
+        <td align="right">0.28</td>
+        <td align="right">0.158</td>
+        </tr>
+        <tr>
+        <td>Hector Neris</td>
+        <td align="right">0.112887</td>
+        <td align="right">0.048388182</td>
+        <td align="right">0.177724818</td>
+        <td align="right">0.337417</td>
+        <td align="right">0.12042316</td>
+        <td align="right">0.11115984</td>
+        <td align="right">0.386</td>
+        <td align="right">0.314</td>
+        <td align="right">0.046</td>
+        <td align="right">0.0808</td>
+        <td align="right">0.341</td>
+        <td align="right">0.2411</td>
+        </tr>
+        <tr>
+        <td>Brandon Brennan</td>
+        <td align="right">0.13167</td>
+        <td align="right">0.05010775</td>
+        <td align="right">0.23622225</td>
+        <td align="right">0.3984</td>
+        <td align="right">0.1124928</td>
+        <td align="right">0.0891072</td>
+        <td align="right">0.262</td>
+        <td align="right">0.3125</td>
+        <td align="right">0.098</td>
+        <td align="right">0.0855</td>
+        <td align="right">0.164</td>
+        <td align="right">0.2425</td>
+        </tr>
+        <tr>
+        <td>Amir Garrett</td>
+        <td align="right">0.184464</td>
+        <td align="right">0.059493056</td>
+        <td align="right">0.244042944</td>
+        <td align="right">0.428274</td>
+        <td align="right">0.075902508</td>
+        <td align="right">0.089823492</td>
+        <td align="right">0.273</td>
+        <td align="right">0.3121</td>
+        <td align="right">0.114</td>
+        <td align="right">0.122</td>
+        <td align="right">0.159</td>
+        <td align="right">0.181</td>
+        </tr>
+        <tr>
+        <td>Jonathan Loaisiga</td>
+        <td align="right">0.16125</td>
+        <td align="right">0.0645</td>
+        <td align="right">0.20425</td>
+        <td align="right">0.374816</td>
+        <td align="right">0.09220528</td>
+        <td align="right">0.07697872</td>
+        <td align="right">0.238</td>
+        <td align="right">0.3118</td>
+        <td align="right">0.143</td>
+        <td align="right">0.0962</td>
+        <td align="right">0.095</td>
+        <td align="right">0.2405</td>
+        </tr>
+        <tr>
+        <td>Eduardo Rodriguez</td>
+        <td align="right">0.126546</td>
+        <td align="right">0.064481868</td>
+        <td align="right">0.201972132</td>
+        <td align="right">0.411642</td>
+        <td align="right">0.079690446</td>
+        <td align="right">0.102667554</td>
+        <td align="right">0.239</td>
+        <td align="right">0.3116</td>
+        <td align="right">0.086</td>
+        <td align="right">0.1262</td>
+        <td align="right">0.154</td>
+        <td align="right">0.1634</td>
+        </tr>
+        <tr>
+        <td>Jordan Hicks</td>
+        <td align="right">0.203796</td>
+        <td align="right">0.0446607</td>
+        <td align="right">0.2105433</td>
+        <td align="right">0.390786</td>
+        <td align="right">0.101310984</td>
+        <td align="right">0.080903016</td>
+        <td align="right">0.333</td>
+        <td align="right">0.311</td>
+        <td align="right">0.128</td>
+        <td align="right">0.1104</td>
+        <td align="right">0.205</td>
+        <td align="right">0.2235</td>
+        </tr>
+        <tr>
+        <td>Jonathan Holder</td>
+        <td align="right">0.139938</td>
+        <td align="right">0.074118834</td>
+        <td align="right">0.283943166</td>
+        <td align="right">0.412032</td>
+        <td align="right">0.061729024</td>
+        <td align="right">0.118238976</td>
+        <td align="right">0.25</td>
+        <td align="right">0.3102</td>
+        <td align="right">0.05</td>
+        <td align="right">0.0944</td>
+        <td align="right">0.2</td>
+        <td align="right">0.058</td>
+        </tr>
+        <tr>
+        <td>Collin McHugh</td>
+        <td align="right">0.19176</td>
+        <td align="right">0.04229248</td>
+        <td align="right">0.23594752</td>
+        <td align="right">0.401592</td>
+        <td align="right">0.087704</td>
+        <td align="right">0.087704</td>
+        <td align="right">0.282</td>
+        <td align="right">0.3095</td>
+        <td align="right">0.076</td>
+        <td align="right">0.1025</td>
+        <td align="right">0.206</td>
+        <td align="right">0.2065</td>
+        </tr>
+        <tr>
+        <td>Caleb Smith</td>
+        <td align="right">0.117162</td>
+        <td align="right">0.071537958</td>
+        <td align="right">0.225300042</td>
+        <td align="right">0.390624</td>
+        <td align="right">0.090083136</td>
+        <td align="right">0.143292864</td>
+        <td align="right">0.339</td>
+        <td align="right">0.3086</td>
+        <td align="right">0.064</td>
+        <td align="right">0.1073</td>
+        <td align="right">0.275</td>
+        <td align="right">0.1993</td>
+        </tr>
+        <tr>
+        <td>Jerad Eickhoff</td>
+        <td align="right">0.160235</td>
+        <td align="right">0.076102845</td>
+        <td align="right">0.202662155</td>
+        <td align="right">0.407712</td>
+        <td align="right">0.053590016</td>
+        <td align="right">0.086697984</td>
+        <td align="right">0.308</td>
+        <td align="right">0.3086</td>
+        <td align="right">0.077</td>
+        <td align="right">0.1312</td>
+        <td align="right">0.231</td>
+        <td align="right">0.1385</td>
+        </tr>
+        <tr>
+        <td>Matt Moore</td>
+        <td align="right">0.128436</td>
+        <td align="right">0.06838062</td>
+        <td align="right">0.26518338</td>
+        <td align="right">0.362848</td>
+        <td align="right">0.077714208</td>
+        <td align="right">0.103437792</td>
+        <td align="right">0.273</td>
+        <td align="right">0.3052</td>
+        <td align="right">0.03</td>
+        <td align="right">0.0811</td>
+        <td align="right">0.242</td>
+        <td align="right">0.1993</td>
+        </tr>
+        <tr>
+        <td>Shane Greene</td>
+        <td align="right">0.17062</td>
+        <td align="right">0.05678952</td>
+        <td align="right">0.22159048</td>
+        <td align="right">0.405879</td>
+        <td align="right">0.077558208</td>
+        <td align="right">0.095562792</td>
+        <td align="right">0.292</td>
+        <td align="right">0.3049</td>
+        <td align="right">0.063</td>
+        <td align="right">0.1179</td>
+        <td align="right">0.229</td>
+        <td align="right">0.1906</td>
+        </tr>
+        <tr>
+        <td>John Brebbia</td>
+        <td align="right">0.1274</td>
+        <td align="right">0.1136772</td>
+        <td align="right">0.2139228</td>
+        <td align="right">0.47385</td>
+        <td align="right">0.0729729</td>
+        <td align="right">0.1821771</td>
+        <td align="right">0.321</td>
+        <td align="right">0.3041</td>
+        <td align="right">0.089</td>
+        <td align="right">0.1643</td>
+        <td align="right">0.232</td>
+        <td align="right">0.2084</td>
+        </tr>
+        <tr>
+        <td>Kenta Maeda</td>
+        <td align="right">0.155364</td>
+        <td align="right">0.062161008</td>
+        <td align="right">0.210474992</td>
+        <td align="right">0.406422</td>
+        <td align="right">0.077255154</td>
+        <td align="right">0.119322846</td>
+        <td align="right">0.21</td>
+        <td align="right">0.3036</td>
+        <td align="right">0.109</td>
+        <td align="right">0.1047</td>
+        <td align="right">0.101</td>
+        <td align="right">0.1881</td>
+        </tr>
+        <tr>
+        <td>Jon Gray</td>
+        <td align="right">0.168388</td>
+        <td align="right">0.040513396</td>
+        <td align="right">0.264098604</td>
+        <td align="right">0.461616</td>
+        <td align="right">0.095192</td>
+        <td align="right">0.095192</td>
+        <td align="right">0.236</td>
+        <td align="right">0.3009</td>
+        <td align="right">0.102</td>
+        <td align="right">0.1464</td>
+        <td align="right">0.134</td>
+        <td align="right">0.1203</td>
+        </tr>
+        <tr>
+        <td>Jose Quintana</td>
+        <td align="right">0.173528</td>
+        <td align="right">0.041208104</td>
+        <td align="right">0.221263896</td>
+        <td align="right">0.437544</td>
+        <td align="right">0.085536144</td>
+        <td align="right">0.094919856</td>
+        <td align="right">0.303</td>
+        <td align="right">0.2999</td>
+        <td align="right">0.076</td>
+        <td align="right">0.1165</td>
+        <td align="right">0.227</td>
+        <td align="right">0.1494</td>
+        </tr>
+        <tr>
+        <td>Blake Treinen</td>
+        <td align="right">0.13482</td>
+        <td align="right">0.04808152</td>
+        <td align="right">0.24509848</td>
+        <td align="right">0.355488</td>
+        <td align="right">0.089011656</td>
+        <td align="right">0.084500344</td>
+        <td align="right">0.315</td>
+        <td align="right">0.2982</td>
+        <td align="right">0.167</td>
+        <td align="right">0.0807</td>
+        <td align="right">0.148</td>
+        <td align="right">0.1887</td>
+        </tr>
+        <tr>
+        <td>Diego Castillo</td>
+        <td align="right">0.155584</td>
+        <td align="right">0.065302848</td>
+        <td align="right">0.221113152</td>
+        <td align="right">0.44936</td>
+        <td align="right">0.10042704</td>
+        <td align="right">0.10621296</td>
+        <td align="right">0.313</td>
+        <td align="right">0.2976</td>
+        <td align="right">0.083</td>
+        <td align="right">0.1442</td>
+        <td align="right">0.229</td>
+        <td align="right">0.1119</td>
+        </tr>
+        <tr>
+        <td>Corbin Burnes</td>
+        <td align="right">0.13816</td>
+        <td align="right">0.04587968</td>
+        <td align="right">0.25596032</td>
+        <td align="right">0.364224</td>
+        <td align="right">0.091732416</td>
+        <td align="right">0.086043584</td>
+        <td align="right">0.267</td>
+        <td align="right">0.2966</td>
+        <td align="right">0.089</td>
+        <td align="right">0.0948</td>
+        <td align="right">0.178</td>
+        <td align="right">0.182</td>
+        </tr>
+        <tr>
+        <td>Ryan Brasier</td>
+        <td align="right">0.104676</td>
+        <td align="right">0.057405348</td>
+        <td align="right">0.266918652</td>
+        <td align="right">0.37236</td>
+        <td align="right">0.11710896</td>
+        <td align="right">0.09053104</td>
+        <td align="right">0.229</td>
+        <td align="right">0.2944</td>
+        <td align="right">0.042</td>
+        <td align="right">0.0734</td>
+        <td align="right">0.188</td>
+        <td align="right">0.2391</td>
+        </tr>
+        <tr>
+        <td>Mychal Givens</td>
+        <td align="right">0.138782</td>
+        <td align="right">0.066917922</td>
+        <td align="right">0.225300078</td>
+        <td align="right">0.3192</td>
+        <td align="right">0.0679288</td>
+        <td align="right">0.0878712</td>
+        <td align="right">0.294</td>
+        <td align="right">0.2933</td>
+        <td align="right">0.078</td>
+        <td align="right">0.0617</td>
+        <td align="right">0.216</td>
+        <td align="right">0.2217</td>
+        </tr>
+        <tr>
+        <td>Cam Bedrosian</td>
+        <td align="right">0.164836</td>
+        <td align="right">0.040274388</td>
+        <td align="right">0.200889612</td>
+        <td align="right">0.451168</td>
+        <td align="right">0.087065616</td>
+        <td align="right">0.074766384</td>
+        <td align="right">0.321</td>
+        <td align="right">0.2933</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1673</td>
+        <td align="right">0.179</td>
+        <td align="right">0.109</td>
+        </tr>
+        <tr>
+        <td>Adam Cimber</td>
+        <td align="right">0.122695</td>
+        <td align="right">0.0816732</td>
+        <td align="right">0.2586318</td>
+        <td align="right">0.388892</td>
+        <td align="right">0.060948888</td>
+        <td align="right">0.152159112</td>
+        <td align="right">0.256</td>
+        <td align="right">0.2929</td>
+        <td align="right">0.07</td>
+        <td align="right">0.1</td>
+        <td align="right">0.186</td>
+        <td align="right">0.2195</td>
+        </tr>
+        <tr>
+        <td>Hansel Robles</td>
+        <td align="right">0.154671</td>
+        <td align="right">0.086267159</td>
+        <td align="right">0.232061841</td>
+        <td align="right">0.402048</td>
+        <td align="right">0.049750272</td>
+        <td align="right">0.124201728</td>
+        <td align="right">0.333</td>
+        <td align="right">0.2929</td>
+        <td align="right">0.063</td>
+        <td align="right">0.1124</td>
+        <td align="right">0.271</td>
+        <td align="right">0.1696</td>
+        </tr>
+        <tr>
+        <td>Luke Bard</td>
+        <td align="right">0.167489</td>
+        <td align="right">0.04613154</td>
+        <td align="right">0.28337946</td>
+        <td align="right">0.416576</td>
+        <td align="right">0.097424448</td>
+        <td align="right">0.051999552</td>
+        <td align="right">0.279</td>
+        <td align="right">0.2919</td>
+        <td align="right">0.07</td>
+        <td align="right">0.1157</td>
+        <td align="right">0.209</td>
+        <td align="right">0.1526</td>
+        </tr>
+        <tr>
+        <td>Pedro Baez</td>
+        <td align="right">0.08878</td>
+        <td align="right">0.08114106</td>
+        <td align="right">0.21607894</td>
+        <td align="right">0.38003</td>
+        <td align="right">0.0574925</td>
+        <td align="right">0.1724775</td>
+        <td align="right">0.246</td>
+        <td align="right">0.2918</td>
+        <td align="right">0.049</td>
+        <td align="right">0.1091</td>
+        <td align="right">0.197</td>
+        <td align="right">0.2175</td>
+        </tr>
+        <tr>
+        <td>Brandon Workman</td>
+        <td align="right">0.195294</td>
+        <td align="right">0.022304898</td>
+        <td align="right">0.145401102</td>
+        <td align="right">0.428922</td>
+        <td align="right">0.107061864</td>
+        <td align="right">0.075016136</td>
+        <td align="right">0.366</td>
+        <td align="right">0.2912</td>
+        <td align="right">0.195</td>
+        <td align="right">0.1967</td>
+        <td align="right">0.171</td>
+        <td align="right">0.1264</td>
+        </tr>
+        <tr>
+        <td>Neil Ramirez</td>
+        <td align="right">0.095046</td>
+        <td align="right">0.0857385</td>
+        <td align="right">0.2572155</td>
+        <td align="right">0.332898</td>
+        <td align="right">0.06245029</td>
+        <td align="right">0.09565171</td>
+        <td align="right">0.277</td>
+        <td align="right">0.2906</td>
+        <td align="right">0.106</td>
+        <td align="right">0.0778</td>
+        <td align="right">0.17</td>
+        <td align="right">0.1936</td>
+        </tr>
+        <tr>
+        <td>Scott Oberg</td>
+        <td align="right">0.180992</td>
+        <td align="right">0.047794432</td>
+        <td align="right">0.219213568</td>
+        <td align="right">0.417453</td>
+        <td align="right">0.084476304</td>
+        <td align="right">0.111070696</td>
+        <td align="right">0.231</td>
+        <td align="right">0.2901</td>
+        <td align="right">0.115</td>
+        <td align="right">0.128</td>
+        <td align="right">0.115</td>
+        <td align="right">0.1764</td>
+        </tr>
+        <tr>
+        <td>Tyler Glasnow</td>
+        <td align="right">0.186372</td>
+        <td align="right">0.0393285</td>
+        <td align="right">0.2752995</td>
+        <td align="right">0.39754</td>
+        <td align="right">0.08723</td>
+        <td align="right">0.08723</td>
+        <td align="right">0.261</td>
+        <td align="right">0.2889</td>
+        <td align="right">0.054</td>
+        <td align="right">0.0953</td>
+        <td align="right">0.207</td>
+        <td align="right">0.1922</td>
+        </tr>
+        <tr>
+        <td>Domingo German</td>
+        <td align="right">0.157586</td>
+        <td align="right">0.044791208</td>
+        <td align="right">0.215622792</td>
+        <td align="right">0.35547</td>
+        <td align="right">0.09947091</td>
+        <td align="right">0.12305909</td>
+        <td align="right">0.283</td>
+        <td align="right">0.2884</td>
+        <td align="right">0.081</td>
+        <td align="right">0.0605</td>
+        <td align="right">0.202</td>
+        <td align="right">0.2231</td>
+        </tr>
+        <tr>
+        <td>Trey Wingenter</td>
+        <td align="right">0.111384</td>
+        <td align="right">0.0505232</td>
+        <td align="right">0.2020928</td>
+        <td align="right">0.3942</td>
+        <td align="right">0.0901044</td>
+        <td align="right">0.0556956</td>
+        <td align="right">0.319</td>
+        <td align="right">0.2884</td>
+        <td align="right">0.149</td>
+        <td align="right">0.0972</td>
+        <td align="right">0.17</td>
+        <td align="right">0.2349</td>
+        </tr>
+        <tr>
+        <td>Luis Castillo</td>
+        <td align="right">0.1368</td>
+        <td align="right">0.0388368</td>
+        <td align="right">0.1843632</td>
+        <td align="right">0.441201</td>
+        <td align="right">0.100119078</td>
+        <td align="right">0.091679922</td>
+        <td align="right">0.299</td>
+        <td align="right">0.286</td>
+        <td align="right">0.097</td>
+        <td align="right">0.1728</td>
+        <td align="right">0.201</td>
+        <td align="right">0.1081</td>
+        </tr>
+        <tr>
+        <td>Chris Paddack</td>
+        <td align="right">0.147672</td>
+        <td align="right">0.07482888</td>
+        <td align="right">0.28149912</td>
+        <td align="right">0.403655</td>
+        <td align="right">0.051446285</td>
+        <td align="right">0.151898715</td>
+        <td align="right">0.303</td>
+        <td align="right">0.2856</td>
+        <td align="right">0.081</td>
+        <td align="right">0.0794</td>
+        <td align="right">0.222</td>
+        <td align="right">0.1238</td>
+        </tr>
+        <tr>
+        <td>Yu Darvish</td>
+        <td align="right">0.142345</td>
+        <td align="right">0.041716215</td>
+        <td align="right">0.230938785</td>
+        <td align="right">0.379122</td>
+        <td align="right">0.076728708</td>
+        <td align="right">0.081149292</td>
+        <td align="right">0.238</td>
+        <td align="right">0.2853</td>
+        <td align="right">0.171</td>
+        <td align="right">0.0856</td>
+        <td align="right">0.067</td>
+        <td align="right">0.1637</td>
+        </tr>
+        <tr>
+        <td>Trevor Gott</td>
+        <td align="right">0.12096</td>
+        <td align="right">0.06314112</td>
+        <td align="right">0.24789888</td>
+        <td align="right">0.413036</td>
+        <td align="right">0.0791856</td>
+        <td align="right">0.1187784</td>
+        <td align="right">0.286</td>
+        <td align="right">0.283</td>
+        <td align="right">0.061</td>
+        <td align="right">0.1072</td>
+        <td align="right">0.225</td>
+        <td align="right">0.1307</td>
+        </tr>
+        <tr>
+        <td>Seth Lugo</td>
+        <td align="right">0.190134</td>
+        <td align="right">0.050997158</td>
+        <td align="right">0.261868842</td>
+        <td align="right">0.416584</td>
+        <td align="right">0.066008096</td>
+        <td align="right">0.119407904</td>
+        <td align="right">0.268</td>
+        <td align="right">0.2818</td>
+        <td align="right">0.056</td>
+        <td align="right">0.0902</td>
+        <td align="right">0.211</td>
+        <td align="right">0.1829</td>
+        </tr>
+        <tr>
+        <td>John Means</td>
+        <td align="right">0.100215</td>
+        <td align="right">0.079930305</td>
+        <td align="right">0.212854695</td>
+        <td align="right">0.349646</td>
+        <td align="right">0.060508998</td>
+        <td align="right">0.095845002</td>
+        <td align="right">0.267</td>
+        <td align="right">0.2809</td>
+        <td align="right">0.07</td>
+        <td align="right">0.0798</td>
+        <td align="right">0.198</td>
+        <td align="right">0.1953</td>
+        </tr>
+        <tr>
+        <td>Trevor Richards</td>
+        <td align="right">0.114072</td>
+        <td align="right">0.062255872</td>
+        <td align="right">0.215672128</td>
+        <td align="right">0.357604</td>
+        <td align="right">0.07027236</td>
+        <td align="right">0.10112364</td>
+        <td align="right">0.228</td>
+        <td align="right">0.2808</td>
+        <td align="right">0.13</td>
+        <td align="right">0.0823</td>
+        <td align="right">0.098</td>
+        <td align="right">0.1831</td>
+        </tr>
+        <tr>
+        <td>Noe Ramirez</td>
+        <td align="right">0.203301</td>
+        <td align="right">0.049441392</td>
+        <td align="right">0.188257608</td>
+        <td align="right">0.362453</td>
+        <td align="right">0.070432527</td>
+        <td align="right">0.136114473</td>
+        <td align="right">0.32</td>
+        <td align="right">0.279</td>
+        <td align="right">0.08</td>
+        <td align="right">0.0647</td>
+        <td align="right">0.24</td>
+        <td align="right">0.1816</td>
+        </tr>
+        <tr>
+        <td>Kirby Yates</td>
+        <td align="right">0.140988</td>
+        <td align="right">0.048316436</td>
+        <td align="right">0.189695564</td>
+        <td align="right">0.378784</td>
+        <td align="right">0.090998752</td>
+        <td align="right">0.138217248</td>
+        <td align="right">0.39</td>
+        <td align="right">0.2777</td>
+        <td align="right">0.085</td>
+        <td align="right">0.0719</td>
+        <td align="right">0.305</td>
+        <td align="right">0.196</td>
+        </tr>
+        <tr>
+        <td>Matthew Boyd</td>
+        <td align="right">0.129015</td>
+        <td align="right">0.05997294</td>
+        <td align="right">0.23401206</td>
+        <td align="right">0.343866</td>
+        <td align="right">0.089830752</td>
+        <td align="right">0.080303248</td>
+        <td align="right">0.31</td>
+        <td align="right">0.2772</td>
+        <td align="right">0.071</td>
+        <td align="right">0.0682</td>
+        <td align="right">0.238</td>
+        <td align="right">0.1791</td>
+        </tr>
+        <tr>
+        <td>Jack Flaherty</td>
+        <td align="right">0.144385</td>
+        <td align="right">0.05388362</td>
+        <td align="right">0.23273138</td>
+        <td align="right">0.33614</td>
+        <td align="right">0.07416052</td>
+        <td align="right">0.07969948</td>
+        <td align="right">0.305</td>
+        <td align="right">0.2772</td>
+        <td align="right">0.048</td>
+        <td align="right">0.0888</td>
+        <td align="right">0.257</td>
+        <td align="right">0.1857</td>
+        </tr>
+        <tr>
+        <td>Jameson Taillon</td>
+        <td align="right">0.158175</td>
+        <td align="right">0.04118725</td>
+        <td align="right">0.27563775</td>
+        <td align="right">0.348864</td>
+        <td align="right">0.088973568</td>
+        <td align="right">0.114162432</td>
+        <td align="right">0.191</td>
+        <td align="right">0.2761</td>
+        <td align="right">0.046</td>
+        <td align="right">0.0549</td>
+        <td align="right">0.145</td>
+        <td align="right">0.2228</td>
+        </tr>
+        <tr>
+        <td>Stephen Strasburg</td>
+        <td align="right">0.165935</td>
+        <td align="right">0.03899357</td>
+        <td align="right">0.18007143</td>
+        <td align="right">0.36757</td>
+        <td align="right">0.09653462</td>
+        <td align="right">0.12589538</td>
+        <td align="right">0.312</td>
+        <td align="right">0.2754</td>
+        <td align="right">0.072</td>
+        <td align="right">0.0679</td>
+        <td align="right">0.24</td>
+        <td align="right">0.2398</td>
+        </tr>
+        <tr>
+        <td>Raisel Iglesias</td>
+        <td align="right">0.117747</td>
+        <td align="right">0.058832046</td>
+        <td align="right">0.264420954</td>
+        <td align="right">0.403678</td>
+        <td align="right">0.10370295</td>
+        <td align="right">0.11461905</td>
+        <td align="right">0.365</td>
+        <td align="right">0.2734</td>
+        <td align="right">0.115</td>
+        <td align="right">0.1015</td>
+        <td align="right">0.25</td>
+        <td align="right">0.1797</td>
+        </tr>
+        <tr>
+        <td>Chris Archer</td>
+        <td align="right">0.148442</td>
+        <td align="right">0.071263224</td>
+        <td align="right">0.241294776</td>
+        <td align="right">0.444536</td>
+        <td align="right">0.056431512</td>
+        <td align="right">0.113032488</td>
+        <td align="right">0.257</td>
+        <td align="right">0.2726</td>
+        <td align="right">0.106</td>
+        <td align="right">0.1135</td>
+        <td align="right">0.15</td>
+        <td align="right">0.0796</td>
+        </tr>
+        <tr>
+        <td>Julio Urias</td>
+        <td align="right">0.130572</td>
+        <td align="right">0.056665024</td>
+        <td align="right">0.215762976</td>
+        <td align="right">0.40817</td>
+        <td align="right">0.09061255</td>
+        <td align="right">0.09621745</td>
+        <td align="right">0.289</td>
+        <td align="right">0.2725</td>
+        <td align="right">0.089</td>
+        <td align="right">0.11</td>
+        <td align="right">0.2</td>
+        <td align="right">0.1799</td>
+        </tr>
+        <tr>
+        <td>Hyun-Jin Ryu</td>
+        <td align="right">0.155125</td>
+        <td align="right">0.0399415</td>
+        <td align="right">0.2299335</td>
+        <td align="right">0.350568</td>
+        <td align="right">0.084551808</td>
+        <td align="right">0.105880192</td>
+        <td align="right">0.308</td>
+        <td align="right">0.2706</td>
+        <td align="right">0.019</td>
+        <td align="right">0.0713</td>
+        <td align="right">0.29</td>
+        <td align="right">0.1973</td>
+        </tr>
+        <tr>
+        <td>Seunghwan Oh</td>
+        <td align="right">0.142203</td>
+        <td align="right">0.065573746</td>
+        <td align="right">0.235223254</td>
+        <td align="right">0.338884</td>
+        <td align="right">0.067783716</td>
+        <td align="right">0.125332284</td>
+        <td align="right">0.233</td>
+        <td align="right">0.2702</td>
+        <td align="right">0.047</td>
+        <td align="right">0.0565</td>
+        <td align="right">0.186</td>
+        <td align="right">0.2019</td>
+        </tr>
+        <tr>
+        <td>Jose Berrios</td>
+        <td align="right">0.161756</td>
+        <td align="right">0.045798748</td>
+        <td align="right">0.228445252</td>
+        <td align="right">0.391685</td>
+        <td align="right">0.075966275</td>
+        <td align="right">0.121348725</td>
+        <td align="right">0.254</td>
+        <td align="right">0.2691</td>
+        <td align="right">0.062</td>
+        <td align="right">0.0886</td>
+        <td align="right">0.192</td>
+        <td align="right">0.1779</td>
+        </tr>
+        <tr>
+        <td>Dakota Hudson</td>
+        <td align="right">0.182308</td>
+        <td align="right">0.043466416</td>
+        <td align="right">0.250225584</td>
+        <td align="right">0.423828</td>
+        <td align="right">0.071097696</td>
+        <td align="right">0.054074304</td>
+        <td align="right">0.194</td>
+        <td align="right">0.2689</td>
+        <td align="right">0.129</td>
+        <td align="right">0.1359</td>
+        <td align="right">0.065</td>
+        <td align="right">0.16</td>
+        </tr>
+        <tr>
+        <td>Charlie Morton</td>
+        <td align="right">0.179676</td>
+        <td align="right">0.035096712</td>
+        <td align="right">0.219227288</td>
+        <td align="right">0.353045</td>
+        <td align="right">0.089816265</td>
+        <td align="right">0.096138735</td>
+        <td align="right">0.309</td>
+        <td align="right">0.2676</td>
+        <td align="right">0.109</td>
+        <td align="right">0.0845</td>
+        <td align="right">0.2</td>
+        <td align="right">0.2034</td>
+        </tr>
+        <tr>
+        <td>Matt Barnes</td>
+        <td align="right">0.135992</td>
+        <td align="right">0.036655192</td>
+        <td align="right">0.209352808</td>
+        <td align="right">0.340896</td>
+        <td align="right">0.108868032</td>
+        <td align="right">0.086235968</td>
+        <td align="right">0.512</td>
+        <td align="right">0.2674</td>
+        <td align="right">0.07</td>
+        <td align="right">0.071</td>
+        <td align="right">0.442</td>
+        <td align="right">0.1605</td>
+        </tr>
+        <tr>
+        <td>Brad Hand</td>
+        <td align="right">0.151455</td>
+        <td align="right">0.050320375</td>
+        <td align="right">0.237224625</td>
+        <td align="right">0.403465</td>
+        <td align="right">0.068833485</td>
+        <td align="right">0.116701515</td>
+        <td align="right">0.36</td>
+        <td align="right">0.2669</td>
+        <td align="right">0.08</td>
+        <td align="right">0.0992</td>
+        <td align="right">0.28</td>
+        <td align="right">0.1716</td>
+        </tr>
+        <tr>
+        <td>David Price</td>
+        <td align="right">0.117015</td>
+        <td align="right">0.06804879</td>
+        <td align="right">0.24993621</td>
+        <td align="right">0.432564</td>
+        <td align="right">0.070464548</td>
+        <td align="right">0.134971452</td>
+        <td align="right">0.319</td>
+        <td align="right">0.2668</td>
+        <td align="right">0.053</td>
+        <td align="right">0.1047</td>
+        <td align="right">0.266</td>
+        <td align="right">0.1195</td>
+        </tr>
+        <tr>
+        <td>Derek Holland</td>
+        <td align="right">0.14105</td>
+        <td align="right">0.0571051</td>
+        <td align="right">0.2048449</td>
+        <td align="right">0.481558</td>
+        <td align="right">0.071832618</td>
+        <td align="right">0.095609382</td>
+        <td align="right">0.306</td>
+        <td align="right">0.2666</td>
+        <td align="right">0.117</td>
+        <td align="right">0.172</td>
+        <td align="right">0.189</td>
+        <td align="right">0.1158</td>
+        </tr>
+        <tr>
+        <td>Lucas Giolito</td>
+        <td align="right">0.182024</td>
+        <td align="right">0.048344208</td>
+        <td align="right">0.257631792</td>
+        <td align="right">0.366266</td>
+        <td align="right">0.073800104</td>
+        <td align="right">0.058933896</td>
+        <td align="right">0.288</td>
+        <td align="right">0.2655</td>
+        <td align="right">0.125</td>
+        <td align="right">0.0685</td>
+        <td align="right">0.163</td>
+        <td align="right">0.1816</td>
+        </tr>
+        <tr>
+        <td>Marcus Walden</td>
+        <td align="right">0.1221</td>
+        <td align="right">0.0464387</td>
+        <td align="right">0.2384613</td>
+        <td align="right">0.370182</td>
+        <td align="right">0.099764648</td>
+        <td align="right">0.129053352</td>
+        <td align="right">0.326</td>
+        <td align="right">0.2646</td>
+        <td align="right">0.087</td>
+        <td align="right">0.0643</td>
+        <td align="right">0.239</td>
+        <td align="right">0.1915</td>
+        </tr>
+        <tr>
+        <td>Shawn Kelley</td>
+        <td align="right">0.188188</td>
+        <td align="right">0.033538824</td>
+        <td align="right">0.295273176</td>
+        <td align="right">0.340625</td>
+        <td align="right">0.0907425</td>
+        <td align="right">0.1136325</td>
+        <td align="right">0.263</td>
+        <td align="right">0.2642</td>
+        <td align="right">0</td>
+        <td align="right">0.0575</td>
+        <td align="right">0.263</td>
+        <td align="right">0.1806</td>
+        </tr>
+        <tr>
+        <td>Shane Bieber</td>
+        <td align="right">0.15639</td>
+        <td align="right">0.03375618</td>
+        <td align="right">0.21085382</td>
+        <td align="right">0.420945</td>
+        <td align="right">0.104543115</td>
+        <td align="right">0.107511885</td>
+        <td align="right">0.255</td>
+        <td align="right">0.2635</td>
+        <td align="right">0.071</td>
+        <td align="right">0.1087</td>
+        <td align="right">0.184</td>
+        <td align="right">0.1563</td>
+        </tr>
+        <tr>
+        <td>Ty Buttrey</td>
+        <td align="right">0.151368</td>
+        <td align="right">0.025354776</td>
+        <td align="right">0.247277224</td>
+        <td align="right">0.416875</td>
+        <td align="right">0.120504375</td>
+        <td align="right">0.087620625</td>
+        <td align="right">0.327</td>
+        <td align="right">0.2635</td>
+        <td align="right">0.061</td>
+        <td align="right">0.1175</td>
+        <td align="right">0.265</td>
+        <td align="right">0.132</td>
+        </tr>
+        <tr>
+        <td>Taylor Rogers</td>
+        <td align="right">0.187757</td>
+        <td align="right">0.045593048</td>
+        <td align="right">0.289649952</td>
+        <td align="right">0.367848</td>
+        <td align="right">0.066989208</td>
+        <td align="right">0.089162792</td>
+        <td align="right">0.273</td>
+        <td align="right">0.2633</td>
+        <td align="right">0.055</td>
+        <td align="right">0.0799</td>
+        <td align="right">0.218</td>
+        <td align="right">0.1929</td>
+        </tr>
+        <tr>
+        <td>James Paxton</td>
+        <td align="right">0.120782</td>
+        <td align="right">0.065321856</td>
+        <td align="right">0.274896144</td>
+        <td align="right">0.381238</td>
+        <td align="right">0.08532576</td>
+        <td align="right">0.09243624</td>
+        <td align="right">0.362</td>
+        <td align="right">0.263</td>
+        <td align="right">0.071</td>
+        <td align="right">0.1026</td>
+        <td align="right">0.291</td>
+        <td align="right">0.1517</td>
+        </tr>
+        <tr>
+        <td>Carlos Rodon</td>
+        <td align="right">0.13869</td>
+        <td align="right">0.03964464</td>
+        <td align="right">0.23566536</td>
+        <td align="right">0.351164</td>
+        <td align="right">0.072463248</td>
+        <td align="right">0.082372752</td>
+        <td align="right">0.286</td>
+        <td align="right">0.2624</td>
+        <td align="right">0.107</td>
+        <td align="right">0.0875</td>
+        <td align="right">0.179</td>
+        <td align="right">0.1644</td>
+        </tr>
+        <tr>
+        <td>Paul Fry</td>
+        <td align="right">0.165816</td>
+        <td align="right">0.048093408</td>
+        <td align="right">0.209090592</td>
+        <td align="right">0.413478</td>
+        <td align="right">0.051594354</td>
+        <td align="right">0.092927646</td>
+        <td align="right">0.205</td>
+        <td align="right">0.262</td>
+        <td align="right">0.114</td>
+        <td align="right">0.1102</td>
+        <td align="right">0.091</td>
+        <td align="right">0.1253</td>
+        </tr>
+        <tr>
+        <td>Joe Biagini</td>
+        <td align="right">0.1552</td>
+        <td align="right">0.0388776</td>
+        <td align="right">0.1939224</td>
+        <td align="right">0.369082</td>
+        <td align="right">0.086475396</td>
+        <td align="right">0.118442604</td>
+        <td align="right">0.25</td>
+        <td align="right">0.2598</td>
+        <td align="right">0.063</td>
+        <td align="right">0.0714</td>
+        <td align="right">0.188</td>
+        <td align="right">0.21</td>
+        </tr>
+        <tr>
+        <td>Heath Hembree</td>
+        <td align="right">0.083205</td>
+        <td align="right">0.08810055</td>
+        <td align="right">0.21569445</td>
+        <td align="right">0.38284</td>
+        <td align="right">0.063056</td>
+        <td align="right">0.117104</td>
+        <td align="right">0.196</td>
+        <td align="right">0.2591</td>
+        <td align="right">0.107</td>
+        <td align="right">0.1097</td>
+        <td align="right">0.089</td>
+        <td align="right">0.2613</td>
+        </tr>
+        <tr>
+        <td>Nick Kingham</td>
+        <td align="right">0.141928</td>
+        <td align="right">0.057983464</td>
+        <td align="right">0.252088536</td>
+        <td align="right">0.393877</td>
+        <td align="right">0.061992483</td>
+        <td align="right">0.131130517</td>
+        <td align="right">0.238</td>
+        <td align="right">0.259</td>
+        <td align="right">0.095</td>
+        <td align="right">0.0954</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1473</td>
+        </tr>
+        <tr>
+        <td>Yoshihisa Hirano</td>
+        <td align="right">0.111696</td>
+        <td align="right">0.039162336</td>
+        <td align="right">0.207141664</td>
+        <td align="right">0.331329</td>
+        <td align="right">0.1028355</td>
+        <td align="right">0.1028355</td>
+        <td align="right">0.304</td>
+        <td align="right">0.2588</td>
+        <td align="right">0.087</td>
+        <td align="right">0.0689</td>
+        <td align="right">0.217</td>
+        <td align="right">0.1858</td>
+        </tr>
+        <tr>
+        <td>German Marquez</td>
+        <td align="right">0.171185</td>
+        <td align="right">0.03633343</td>
+        <td align="right">0.26148157</td>
+        <td align="right">0.42051</td>
+        <td align="right">0.12146582</td>
+        <td align="right">0.11302418</td>
+        <td align="right">0.236</td>
+        <td align="right">0.2579</td>
+        <td align="right">0.064</td>
+        <td align="right">0.1111</td>
+        <td align="right">0.172</td>
+        <td align="right">0.1307</td>
+        </tr>
+        <tr>
+        <td>Jeurys Familia</td>
+        <td align="right">0.185617</td>
+        <td align="right">0.023805066</td>
+        <td align="right">0.209577934</td>
+        <td align="right">0.361584</td>
+        <td align="right">0.077423616</td>
+        <td align="right">0.056992384</td>
+        <td align="right">0.22</td>
+        <td align="right">0.2577</td>
+        <td align="right">0.18</td>
+        <td align="right">0.0832</td>
+        <td align="right">0.04</td>
+        <td align="right">0.1417</td>
+        </tr>
+        <tr>
+        <td>Chris Sale</td>
+        <td align="right">0.172788</td>
+        <td align="right">0.063176036</td>
+        <td align="right">0.248035964</td>
+        <td align="right">0.34556</td>
+        <td align="right">0.05514756</td>
+        <td align="right">0.12929244</td>
+        <td align="right">0.226</td>
+        <td align="right">0.2571</td>
+        <td align="right">0.066</td>
+        <td align="right">0.061</td>
+        <td align="right">0.16</td>
+        <td align="right">0.1727</td>
+        </tr>
+        <tr>
+        <td>Jeffrey Springs</td>
+        <td align="right">0.19096</td>
+        <td align="right">0.03985856</td>
+        <td align="right">0.20318144</td>
+        <td align="right">0.314262</td>
+        <td align="right">0.062336144</td>
+        <td align="right">0.065401856</td>
+        <td align="right">0.211</td>
+        <td align="right">0.2563</td>
+        <td align="right">0.175</td>
+        <td align="right">0.0759</td>
+        <td align="right">0.035</td>
+        <td align="right">0.1796</td>
+        </tr>
+        <tr>
+        <td>Luis Cessa</td>
+        <td align="right">0.13542</td>
+        <td align="right">0.01571686</td>
+        <td align="right">0.21886314</td>
+        <td align="right">0.381807</td>
+        <td align="right">0.101961801</td>
+        <td align="right">0.053231199</td>
+        <td align="right">0.265</td>
+        <td align="right">0.2532</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1008</td>
+        <td align="right">0.122</td>
+        <td align="right">0.1355</td>
+        </tr>
+        <tr>
+        <td>Adam Ottavino</td>
+        <td align="right">0.232212</td>
+        <td align="right">0.041510448</td>
+        <td align="right">0.170277552</td>
+        <td align="right">0.502285</td>
+        <td align="right">0.056934735</td>
+        <td align="right">0.075780265</td>
+        <td align="right">0.312</td>
+        <td align="right">0.2529</td>
+        <td align="right">0.18</td>
+        <td align="right">0.1704</td>
+        <td align="right">0.131</td>
+        <td align="right">0.0621</td>
+        </tr>
+        <tr>
+        <td>Luke Jackson</td>
+        <td align="right">0.127764</td>
+        <td align="right">0.011510856</td>
+        <td align="right">0.238725144</td>
+        <td align="right">0.348099</td>
+        <td align="right">0.137967768</td>
+        <td align="right">0.104933232</td>
+        <td align="right">0.306</td>
+        <td align="right">0.2527</td>
+        <td align="right">0.122</td>
+        <td align="right">0.0953</td>
+        <td align="right">0.184</td>
+        <td align="right">0.1766</td>
+        </tr>
+        <tr>
+        <td>Ross Stripling</td>
+        <td align="right">0.1764</td>
+        <td align="right">0.0415872</td>
+        <td align="right">0.2320128</td>
+        <td align="right">0.395379</td>
+        <td align="right">0.070227939</td>
+        <td align="right">0.125393061</td>
+        <td align="right">0.235</td>
+        <td align="right">0.2525</td>
+        <td align="right">0.074</td>
+        <td align="right">0.0909</td>
+        <td align="right">0.162</td>
+        <td align="right">0.155</td>
+        </tr>
+        <tr>
+        <td>Matt Shoemaker</td>
+        <td align="right">0.13408</td>
+        <td align="right">0.04302292</td>
+        <td align="right">0.24189708</td>
+        <td align="right">0.302412</td>
+        <td align="right">0.074126016</td>
+        <td align="right">0.097461984</td>
+        <td align="right">0.222</td>
+        <td align="right">0.2519</td>
+        <td align="right">0.083</td>
+        <td align="right">0.0769</td>
+        <td align="right">0.139</td>
+        <td align="right">0.1729</td>
+        </tr>
+        <tr>
+        <td>Noah Syndergaard</td>
+        <td align="right">0.135529</td>
+        <td align="right">0.062766381</td>
+        <td align="right">0.234704619</td>
+        <td align="right">0.387709</td>
+        <td align="right">0.061035903</td>
+        <td align="right">0.122255097</td>
+        <td align="right">0.276</td>
+        <td align="right">0.2519</td>
+        <td align="right">0.057</td>
+        <td align="right">0.1075</td>
+        <td align="right">0.22</td>
+        <td align="right">0.1658</td>
+        </tr>
+        <tr>
+        <td>Jake Odorizzi</td>
+        <td align="right">0.155376</td>
+        <td align="right">0.08753472</td>
+        <td align="right">0.22508928</td>
+        <td align="right">0.41349</td>
+        <td align="right">0.03779406</td>
+        <td align="right">0.08571594</td>
+        <td align="right">0.245</td>
+        <td align="right">0.2518</td>
+        <td align="right">0.106</td>
+        <td align="right">0.1244</td>
+        <td align="right">0.138</td>
+        <td align="right">0.1283</td>
+        </tr>
+        <tr>
+        <td>Alex Colome</td>
+        <td align="right">0.13344</td>
+        <td align="right">0.0467856</td>
+        <td align="right">0.2997744</td>
+        <td align="right">0.365462</td>
+        <td align="right">0.071769</td>
+        <td align="right">0.071769</td>
+        <td align="right">0.205</td>
+        <td align="right">0.2496</td>
+        <td align="right">0.077</td>
+        <td align="right">0.0598</td>
+        <td align="right">0.128</td>
+        <td align="right">0.1592</td>
+        </tr>
+        <tr>
+        <td>Michael Lorenzen</td>
+        <td align="right">0.100772</td>
+        <td align="right">0.073998036</td>
+        <td align="right">0.238229964</td>
+        <td align="right">0.362962</td>
+        <td align="right">0.047051172</td>
+        <td align="right">0.112986828</td>
+        <td align="right">0.167</td>
+        <td align="right">0.249</td>
+        <td align="right">0.093</td>
+        <td align="right">0.0654</td>
+        <td align="right">0.074</td>
+        <td align="right">0.1719</td>
+        </tr>
+        <tr>
+        <td>Pablo Lopez</td>
+        <td align="right">0.140679</td>
+        <td align="right">0.043846866</td>
+        <td align="right">0.256474134</td>
+        <td align="right">0.388962</td>
+        <td align="right">0.077268492</td>
+        <td align="right">0.100769508</td>
+        <td align="right">0.259</td>
+        <td align="right">0.2488</td>
+        <td align="right">0.045</td>
+        <td align="right">0.1028</td>
+        <td align="right">0.214</td>
+        <td align="right">0.1588</td>
+        </tr>
+        <tr>
+        <td>Trevor Bauer</td>
+        <td align="right">0.13588</td>
+        <td align="right">0.04794156</td>
+        <td align="right">0.24617844</td>
+        <td align="right">0.43068</td>
+        <td align="right">0.06673212</td>
+        <td align="right">0.08458788</td>
+        <td align="right">0.283</td>
+        <td align="right">0.2466</td>
+        <td align="right">0.12</td>
+        <td align="right">0.119</td>
+        <td align="right">0.164</td>
+        <td align="right">0.1345</td>
+        </tr>
+        <tr>
+        <td>Felipe Vazquez</td>
+        <td align="right">0.146657</td>
+        <td align="right">0.071046885</td>
+        <td align="right">0.293296115</td>
+        <td align="right">0.415844</td>
+        <td align="right">0.0624624</td>
+        <td align="right">0.0936936</td>
+        <td align="right">0.392</td>
+        <td align="right">0.2465</td>
+        <td align="right">0.078</td>
+        <td align="right">0.1316</td>
+        <td align="right">0.314</td>
+        <td align="right">0.0642</td>
+        </tr>
+        <tr>
+        <td>Joe Musgrove</td>
+        <td align="right">0.14652</td>
+        <td align="right">0.044622</td>
+        <td align="right">0.252858</td>
+        <td align="right">0.388642</td>
+        <td align="right">0.098493162</td>
+        <td align="right">0.125864838</td>
+        <td align="right">0.243</td>
+        <td align="right">0.2453</td>
+        <td align="right">0.056</td>
+        <td align="right">0.0799</td>
+        <td align="right">0.187</td>
+        <td align="right">0.2112</td>
+        </tr>
+        <tr>
+        <td>Kyle Gibson</td>
+        <td align="right">0.156807</td>
+        <td align="right">0.024800265</td>
+        <td align="right">0.211392735</td>
+        <td align="right">0.398326</td>
+        <td align="right">0.082818568</td>
+        <td align="right">0.072855432</td>
+        <td align="right">0.196</td>
+        <td align="right">0.2446</td>
+        <td align="right">0.087</td>
+        <td align="right">0.1006</td>
+        <td align="right">0.109</td>
+        <td align="right">0.122</td>
+        </tr>
+        <tr>
+        <td>Felix Pena</td>
+        <td align="right">0.145195</td>
+        <td align="right">0.037724115</td>
+        <td align="right">0.226080885</td>
+        <td align="right">0.412936</td>
+        <td align="right">0.0852852</td>
+        <td align="right">0.0697788</td>
+        <td align="right">0.239</td>
+        <td align="right">0.2445</td>
+        <td align="right">0.076</td>
+        <td align="right">0.0877</td>
+        <td align="right">0.163</td>
+        <td align="right">0.1519</td>
+        </tr>
+        <tr>
+        <td>Martin Perez</td>
+        <td align="right">0.134505</td>
+        <td align="right">0.05455611</td>
+        <td align="right">0.25193889</td>
+        <td align="right">0.3822</td>
+        <td align="right">0.0642096</td>
+        <td align="right">0.1415904</td>
+        <td align="right">0.195</td>
+        <td align="right">0.2444</td>
+        <td align="right">0.102</td>
+        <td align="right">0.1031</td>
+        <td align="right">0.093</td>
+        <td align="right">0.1215</td>
+        </tr>
+        <tr>
+        <td>Drew Smyly</td>
+        <td align="right">0.164808</td>
+        <td align="right">0.04474668</td>
+        <td align="right">0.22644532</td>
+        <td align="right">0.417864</td>
+        <td align="right">0.054727488</td>
+        <td align="right">0.079408512</td>
+        <td align="right">0.253</td>
+        <td align="right">0.2422</td>
+        <td align="right">0.133</td>
+        <td align="right">0.1119</td>
+        <td align="right">0.12</td>
+        <td align="right">0.1136</td>
+        </tr>
+        <tr>
+        <td>Chad Sobotka</td>
+        <td align="right">0.11799</td>
+        <td align="right">0.05243931</td>
+        <td align="right">0.17457069</td>
+        <td align="right">0.378087</td>
+        <td align="right">0.081168852</td>
+        <td align="right">0.119744148</td>
+        <td align="right">0.278</td>
+        <td align="right">0.242</td>
+        <td align="right">0.148</td>
+        <td align="right">0.0944</td>
+        <td align="right">0.13</td>
+        <td align="right">0.1517</td>
+        </tr>
+        <tr>
+        <td>Patrick Corbin</td>
+        <td align="right">0.138933</td>
+        <td align="right">0.036217782</td>
+        <td align="right">0.211849218</td>
+        <td align="right">0.393616</td>
+        <td align="right">0.086434336</td>
+        <td align="right">0.103949664</td>
+        <td align="right">0.307</td>
+        <td align="right">0.2411</td>
+        <td align="right">0.047</td>
+        <td align="right">0.1051</td>
+        <td align="right">0.26</td>
+        <td align="right">0.1426</td>
+        </tr>
+        <tr>
+        <td>Julio Teheran</td>
+        <td align="right">0.122292</td>
+        <td align="right">0.065647584</td>
+        <td align="right">0.199060416</td>
+        <td align="right">0.453429</td>
+        <td align="right">0.056053415</td>
+        <td align="right">0.097517585</td>
+        <td align="right">0.254</td>
+        <td align="right">0.2407</td>
+        <td align="right">0.12</td>
+        <td align="right">0.1218</td>
+        <td align="right">0.134</td>
+        <td align="right">0.0946</td>
+        </tr>
+        <tr>
+        <td>Dylan Bundy</td>
+        <td align="right">0.136041</td>
+        <td align="right">0.03574467</td>
+        <td align="right">0.23921433</td>
+        <td align="right">0.413385</td>
+        <td align="right">0.103494205</td>
+        <td align="right">0.118120795</td>
+        <td align="right">0.245</td>
+        <td align="right">0.2397</td>
+        <td align="right">0.094</td>
+        <td align="right">0.124</td>
+        <td align="right">0.151</td>
+        <td align="right">0.1494</td>
+        </tr>
+        <tr>
+        <td>Daniel Hudson</td>
+        <td align="right">0.118724</td>
+        <td align="right">0.075556308</td>
+        <td align="right">0.248719692</td>
+        <td align="right">0.45756</td>
+        <td align="right">0.05409252</td>
+        <td align="right">0.10834748</td>
+        <td align="right">0.296</td>
+        <td align="right">0.2362</td>
+        <td align="right">0.068</td>
+        <td align="right">0.1243</td>
+        <td align="right">0.227</td>
+        <td align="right">0.0445</td>
+        </tr>
+        <tr>
+        <td>Luis Avilan</td>
+        <td align="right">0.131242</td>
+        <td align="right">0.017616284</td>
+        <td align="right">0.162141716</td>
+        <td align="right">0.397862</td>
+        <td align="right">0.076583026</td>
+        <td align="right">0.126554974</td>
+        <td align="right">0.196</td>
+        <td align="right">0.2359</td>
+        <td align="right">0.098</td>
+        <td align="right">0.0644</td>
+        <td align="right">0.098</td>
+        <td align="right">0.1233</td>
+        </tr>
+        <tr>
+        <td>Jaime Barria</td>
+        <td align="right">0.12948</td>
+        <td align="right">0.0414004</td>
+        <td align="right">0.2441196</td>
+        <td align="right">0.399064</td>
+        <td align="right">0.074312448</td>
+        <td align="right">0.127623552</td>
+        <td align="right">0.177</td>
+        <td align="right">0.2359</td>
+        <td align="right">0.039</td>
+        <td align="right">0.0811</td>
+        <td align="right">0.137</td>
+        <td align="right">0.1285</td>
+        </tr>
+        <tr>
+        <td>Sonny Gray</td>
+        <td align="right">0.17928</td>
+        <td align="right">0.03582944</td>
+        <td align="right">0.19989056</td>
+        <td align="right">0.431112</td>
+        <td align="right">0.067212008</td>
+        <td align="right">0.069675992</td>
+        <td align="right">0.313</td>
+        <td align="right">0.235</td>
+        <td align="right">0.061</td>
+        <td align="right">0.1342</td>
+        <td align="right">0.253</td>
+        <td align="right">0.1234</td>
+        </tr>
+        <tr>
+        <td>Tim Mayza</td>
+        <td align="right">0.092335</td>
+        <td align="right">0.04104369</td>
+        <td align="right">0.17962131</td>
+        <td align="right">0.36993</td>
+        <td align="right">0.0968308</td>
+        <td align="right">0.1232392</td>
+        <td align="right">0.245</td>
+        <td align="right">0.234</td>
+        <td align="right">0.163</td>
+        <td align="right">0.0516</td>
+        <td align="right">0.082</td>
+        <td align="right">0.191</td>
+        </tr>
+        <tr>
+        <td>Carlos Carrasco</td>
+        <td align="right">0.13888</td>
+        <td align="right">0.05966016</td>
+        <td align="right">0.24945984</td>
+        <td align="right">0.410939</td>
+        <td align="right">0.087051084</td>
+        <td align="right">0.109009916</td>
+        <td align="right">0.351</td>
+        <td align="right">0.2335</td>
+        <td align="right">0.053</td>
+        <td align="right">0.1061</td>
+        <td align="right">0.298</td>
+        <td align="right">0.1618</td>
+        </tr>
+        <tr>
+        <td>Nick Vincent</td>
+        <td align="right">0.120454</td>
+        <td align="right">0.064808832</td>
+        <td align="right">0.272737168</td>
+        <td align="right">0.39672</td>
+        <td align="right">0.0494856</td>
+        <td align="right">0.1337944</td>
+        <td align="right">0.18</td>
+        <td align="right">0.2323</td>
+        <td align="right">0.082</td>
+        <td align="right">0.1</td>
+        <td align="right">0.098</td>
+        <td align="right">0.1183</td>
+        </tr>
+        <tr>
+        <td>Yoan Lopez</td>
+        <td align="right">0.13892</td>
+        <td align="right">0.06550032</td>
+        <td align="right">0.25557968</td>
+        <td align="right">0.445116</td>
+        <td align="right">0.063440496</td>
+        <td align="right">0.079443504</td>
+        <td align="right">0.2</td>
+        <td align="right">0.2314</td>
+        <td align="right">0.125</td>
+        <td align="right">0.1332</td>
+        <td align="right">0.075</td>
+        <td align="right">0.0891</td>
+        </tr>
+        <tr>
+        <td>Erik Swanson</td>
+        <td align="right">0.13974</td>
+        <td align="right">0.08664084</td>
+        <td align="right">0.28361916</td>
+        <td align="right">0.408856</td>
+        <td align="right">0.046786</td>
+        <td align="right">0.140358</td>
+        <td align="right">0.214</td>
+        <td align="right">0.2305</td>
+        <td align="right">0.036</td>
+        <td align="right">0.0942</td>
+        <td align="right">0.179</td>
+        <td align="right">0.0809</td>
+        </tr>
+        <tr>
+        <td>Corey Kluber</td>
+        <td align="right">0.117247</td>
+        <td align="right">0.043378751</td>
+        <td align="right">0.216374249</td>
+        <td align="right">0.39353</td>
+        <td align="right">0.07681977</td>
+        <td align="right">0.11965023</td>
+        <td align="right">0.238</td>
+        <td align="right">0.2303</td>
+        <td align="right">0.102</td>
+        <td align="right">0.0918</td>
+        <td align="right">0.136</td>
+        <td align="right">0.1442</td>
+        </tr>
+        <tr>
+        <td>David Hernandez</td>
+        <td align="right">0.13076</td>
+        <td align="right">0.06523056</td>
+        <td align="right">0.27100944</td>
+        <td align="right">0.38659</td>
+        <td align="right">0.06531063</td>
+        <td align="right">0.12509937</td>
+        <td align="right">0.208</td>
+        <td align="right">0.2296</td>
+        <td align="right">0.104</td>
+        <td align="right">0.1041</td>
+        <td align="right">0.104</td>
+        <td align="right">0.1632</td>
+        </tr>
+        <tr>
+        <td>Robert Gsellman</td>
+        <td align="right">0.11648</td>
+        <td align="right">0.05450172</td>
+        <td align="right">0.28401828</td>
+        <td align="right">0.347886</td>
+        <td align="right">0.07166301</td>
+        <td align="right">0.08245099</td>
+        <td align="right">0.221</td>
+        <td align="right">0.2296</td>
+        <td align="right">0.029</td>
+        <td align="right">0.0629</td>
+        <td align="right">0.191</td>
+        <td align="right">0.1428</td>
+        </tr>
+        <tr>
+        <td>Scott Alexander</td>
+        <td align="right">0.111</td>
+        <td align="right">0.05544</td>
+        <td align="right">0.20856</td>
+        <td align="right">0.378512</td>
+        <td align="right">0.064111624</td>
+        <td align="right">0.134376376</td>
+        <td align="right">0.191</td>
+        <td align="right">0.2285</td>
+        <td align="right">0.071</td>
+        <td align="right">0.0975</td>
+        <td align="right">0.119</td>
+        <td align="right">0.1462</td>
+        </tr>
+        <tr>
+        <td>Kyle Freeland</td>
+        <td align="right">0.11935</td>
+        <td align="right">0.05380515</td>
+        <td align="right">0.26084485</td>
+        <td align="right">0.440544</td>
+        <td align="right">0.062008128</td>
+        <td align="right">0.121447872</td>
+        <td align="right">0.252</td>
+        <td align="right">0.2284</td>
+        <td align="right">0.084</td>
+        <td align="right">0.108</td>
+        <td align="right">0.168</td>
+        <td align="right">0.0666</td>
+        </tr>
+        <tr>
+        <td>Tyler Kinley</td>
+        <td align="right">0.104104</td>
+        <td align="right">0.043922424</td>
+        <td align="right">0.215973576</td>
+        <td align="right">0.370304</td>
+        <td align="right">0.0661708</td>
+        <td align="right">0.0895252</td>
+        <td align="right">0.279</td>
+        <td align="right">0.2283</td>
+        <td align="right">0.148</td>
+        <td align="right">0.0832</td>
+        <td align="right">0.131</td>
+        <td align="right">0.131</td>
+        </tr>
+        <tr>
+        <td>Drew Steckenrider</td>
+        <td align="right">0.142043</td>
+        <td align="right">0.058025583</td>
+        <td align="right">0.206931417</td>
+        <td align="right">0.381</td>
+        <td align="right">0.033147</td>
+        <td align="right">0.093853</td>
+        <td align="right">0.225</td>
+        <td align="right">0.2281</td>
+        <td align="right">0.05</td>
+        <td align="right">0.0946</td>
+        <td align="right">0.175</td>
+        <td align="right">0.1008</td>
+        </tr>
+        <tr>
+        <td>Robbie Ray</td>
+        <td align="right">0.166116</td>
+        <td align="right">0.036745164</td>
+        <td align="right">0.178138836</td>
+        <td align="right">0.362748</td>
+        <td align="right">0.065745108</td>
+        <td align="right">0.087506892</td>
+        <td align="right">0.272</td>
+        <td align="right">0.2269</td>
+        <td align="right">0.125</td>
+        <td align="right">0.0884</td>
+        <td align="right">0.147</td>
+        <td align="right">0.1655</td>
+        </tr>
+        <tr>
+        <td>Yimi Garcia</td>
+        <td align="right">0.156843</td>
+        <td align="right">0.085136547</td>
+        <td align="right">0.229020453</td>
+        <td align="right">0.387353</td>
+        <td align="right">0.042057279</td>
+        <td align="right">0.121589721</td>
+        <td align="right">0.245</td>
+        <td align="right">0.2268</td>
+        <td align="right">0.113</td>
+        <td align="right">0.0978</td>
+        <td align="right">0.132</td>
+        <td align="right">0.1048</td>
+        </tr>
+        <tr>
+        <td>Kenley Jansen</td>
+        <td align="right">0.12175</td>
+        <td align="right">0.06611025</td>
+        <td align="right">0.29913975</td>
+        <td align="right">0.293007</td>
+        <td align="right">0.063780717</td>
+        <td align="right">0.072212283</td>
+        <td align="right">0.34</td>
+        <td align="right">0.2265</td>
+        <td align="right">0.04</td>
+        <td align="right">0.0699</td>
+        <td align="right">0.3</td>
+        <td align="right">0.1706</td>
+        </tr>
+        <tr>
+        <td>Brad Boxberger</td>
+        <td align="right">0.110088</td>
+        <td align="right">0.073351968</td>
+        <td align="right">0.233560032</td>
+        <td align="right">0.392616</td>
+        <td align="right">0.023836176</td>
+        <td align="right">0.087547824</td>
+        <td align="right">0.255</td>
+        <td align="right">0.2259</td>
+        <td align="right">0.157</td>
+        <td align="right">0.1077</td>
+        <td align="right">0.098</td>
+        <td align="right">0.1504</td>
+        </tr>
+        <tr>
+        <td>Joey Lucchesi</td>
+        <td align="right">0.126207</td>
+        <td align="right">0.03286309</td>
+        <td align="right">0.21992991</td>
+        <td align="right">0.3699</td>
+        <td align="right">0.0787202</td>
+        <td align="right">0.0993798</td>
+        <td align="right">0.252</td>
+        <td align="right">0.2258</td>
+        <td align="right">0.078</td>
+        <td align="right">0.0857</td>
+        <td align="right">0.174</td>
+        <td align="right">0.1405</td>
+        </tr>
+        <tr>
+        <td>Archie Bradley</td>
+        <td align="right">0.188347</td>
+        <td align="right">0.044648152</td>
+        <td align="right">0.198004848</td>
+        <td align="right">0.39906</td>
+        <td align="right">0.05172498</td>
+        <td align="right">0.08921502</td>
+        <td align="right">0.265</td>
+        <td align="right">0.2228</td>
+        <td align="right">0.122</td>
+        <td align="right">0.1045</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1072</td>
+        </tr>
+        <tr>
+        <td>Jalen Beeks</td>
+        <td align="right">0.134773</td>
+        <td align="right">0.049589001</td>
+        <td align="right">0.254637999</td>
+        <td align="right">0.344172</td>
+        <td align="right">0.051032916</td>
+        <td align="right">0.120795084</td>
+        <td align="right">0.235</td>
+        <td align="right">0.2217</td>
+        <td align="right">0.094</td>
+        <td align="right">0.0458</td>
+        <td align="right">0.141</td>
+        <td align="right">0.156</td>
+        </tr>
+        <tr>
+        <td>Brandon Woodruff</td>
+        <td align="right">0.138016</td>
+        <td align="right">0.046133664</td>
+        <td align="right">0.269850336</td>
+        <td align="right">0.371412</td>
+        <td align="right">0.057059964</td>
+        <td align="right">0.084528036</td>
+        <td align="right">0.271</td>
+        <td align="right">0.221</td>
+        <td align="right">0.076</td>
+        <td align="right">0.0834</td>
+        <td align="right">0.195</td>
+        <td align="right">0.1563</td>
+        </tr>
+        <tr>
+        <td>Craig Stammen</td>
+        <td align="right">0.113828</td>
+        <td align="right">0.037794876</td>
+        <td align="right">0.246377124</td>
+        <td align="right">0.422002</td>
+        <td align="right">0.07109921</td>
+        <td align="right">0.10889879</td>
+        <td align="right">0.186</td>
+        <td align="right">0.2209</td>
+        <td align="right">0.017</td>
+        <td align="right">0.1001</td>
+        <td align="right">0.17</td>
+        <td align="right">0.1259</td>
+        </tr>
+        <tr>
+        <td>Aaron Nola</td>
+        <td align="right">0.17978</td>
+        <td align="right">0.03116658</td>
+        <td align="right">0.19305342</td>
+        <td align="right">0.404477</td>
+        <td align="right">0.047961394</td>
+        <td align="right">0.124561606</td>
+        <td align="right">0.227</td>
+        <td align="right">0.2207</td>
+        <td align="right">0.092</td>
+        <td align="right">0.0753</td>
+        <td align="right">0.135</td>
+        <td align="right">0.1082</td>
+        </tr>
+        <tr>
+        <td>Frankie Montas</td>
+        <td align="right">0.120692</td>
+        <td align="right">0.040073964</td>
+        <td align="right">0.261234036</td>
+        <td align="right">0.44088</td>
+        <td align="right">0.07744792</td>
+        <td align="right">0.14967208</td>
+        <td align="right">0.219</td>
+        <td align="right">0.2206</td>
+        <td align="right">0.067</td>
+        <td align="right">0.1139</td>
+        <td align="right">0.151</td>
+        <td align="right">0.1213</td>
+        </tr>
+        <tr>
+        <td>Roberto Osuna</td>
+        <td align="right">0.106386</td>
+        <td align="right">0.070847712</td>
+        <td align="right">0.269766288</td>
+        <td align="right">0.327316</td>
+        <td align="right">0.036421</td>
+        <td align="right">0.109263</td>
+        <td align="right">0.273</td>
+        <td align="right">0.2191</td>
+        <td align="right">0</td>
+        <td align="right">0.0763</td>
+        <td align="right">0.273</td>
+        <td align="right">0.1232</td>
+        </tr>
+        <tr>
+        <td>Trevor Cahill</td>
+        <td align="right">0.148629</td>
+        <td align="right">0.040549262</td>
+        <td align="right">0.291821738</td>
+        <td align="right">0.370662</td>
+        <td align="right">0.063665844</td>
+        <td align="right">0.054672156</td>
+        <td align="right">0.188</td>
+        <td align="right">0.219</td>
+        <td align="right">0.075</td>
+        <td align="right">0.0798</td>
+        <td align="right">0.113</td>
+        <td align="right">0.159</td>
+        </tr>
+        <tr>
+        <td>Mike Minor</td>
+        <td align="right">0.144144</td>
+        <td align="right">0.042311808</td>
+        <td align="right">0.209544192</td>
+        <td align="right">0.397296</td>
+        <td align="right">0.060746112</td>
+        <td align="right">0.099957888</td>
+        <td align="right">0.2</td>
+        <td align="right">0.2179</td>
+        <td align="right">0.085</td>
+        <td align="right">0.1031</td>
+        <td align="right">0.115</td>
+        <td align="right">0.1331</td>
+        </tr>
+        <tr>
+        <td>Cole Hamels</td>
+        <td align="right">0.159354</td>
+        <td align="right">0.043607608</td>
+        <td align="right">0.251038392</td>
+        <td align="right">0.40128</td>
+        <td align="right">0.0615828</td>
+        <td align="right">0.1071372</td>
+        <td align="right">0.24</td>
+        <td align="right">0.2168</td>
+        <td align="right">0.072</td>
+        <td align="right">0.0899</td>
+        <td align="right">0.168</td>
+        <td align="right">0.1282</td>
+        </tr>
+        <tr>
+        <td>Sean Doolittle</td>
+        <td align="right">0.0847</td>
+        <td align="right">0.0702768</td>
+        <td align="right">0.3290232</td>
+        <td align="right">0.307146</td>
+        <td align="right">0.058664886</td>
+        <td align="right">0.131189114</td>
+        <td align="right">0.289</td>
+        <td align="right">0.2166</td>
+        <td align="right">0.058</td>
+        <td align="right">0.0541</td>
+        <td align="right">0.231</td>
+        <td align="right">0.1214</td>
+        </tr>
+        <tr>
+        <td>Tyson Ross</td>
+        <td align="right">0.18232</td>
+        <td align="right">0.0173376</td>
+        <td align="right">0.2303424</td>
+        <td align="right">0.42594</td>
+        <td align="right">0.06384574</td>
+        <td align="right">0.13021426</td>
+        <td align="right">0.177</td>
+        <td align="right">0.2165</td>
+        <td align="right">0.097</td>
+        <td align="right">0.0879</td>
+        <td align="right">0.081</td>
+        <td align="right">0.0823</td>
+        </tr>
+        <tr>
+        <td>Sandy Alcantara</td>
+        <td align="right">0.113204</td>
+        <td align="right">0.035613032</td>
+        <td align="right">0.215182968</td>
+        <td align="right">0.423632</td>
+        <td align="right">0.08773432</td>
+        <td align="right">0.15263368</td>
+        <td align="right">0.171</td>
+        <td align="right">0.2162</td>
+        <td align="right">0.098</td>
+        <td align="right">0.0956</td>
+        <td align="right">0.073</td>
+        <td align="right">0.1262</td>
+        </tr>
+        <tr>
+        <td>Jon Lester</td>
+        <td align="right">0.121952</td>
+        <td align="right">0.06091008</td>
+        <td align="right">0.22913792</td>
+        <td align="right">0.387858</td>
+        <td align="right">0.026287814</td>
+        <td align="right">0.094854186</td>
+        <td align="right">0.244</td>
+        <td align="right">0.215</td>
+        <td align="right">0.077</td>
+        <td align="right">0.096</td>
+        <td align="right">0.167</td>
+        <td align="right">0.091</td>
+        </tr>
+        <tr>
+        <td>Michael Wacha</td>
+        <td align="right">0.12259</td>
+        <td align="right">0.05259603</td>
+        <td align="right">0.23481397</td>
+        <td align="right">0.434304</td>
+        <td align="right">0.036699264</td>
+        <td align="right">0.104996736</td>
+        <td align="right">0.25</td>
+        <td align="right">0.2148</td>
+        <td align="right">0.146</td>
+        <td align="right">0.1187</td>
+        <td align="right">0.104</td>
+        <td align="right">0.0612</td>
+        </tr>
+        <tr>
+        <td>Spencer Turnbull</td>
+        <td align="right">0.128438</td>
+        <td align="right">0.047804796</td>
+        <td align="right">0.254757204</td>
+        <td align="right">0.43146</td>
+        <td align="right">0.06336954</td>
+        <td align="right">0.11717046</td>
+        <td align="right">0.232</td>
+        <td align="right">0.2147</td>
+        <td align="right">0.098</td>
+        <td align="right">0.104</td>
+        <td align="right">0.134</td>
+        <td align="right">0.0655</td>
+        </tr>
+        <tr>
+        <td>Brad Brach</td>
+        <td align="right">0.106267</td>
+        <td align="right">0.046164129</td>
+        <td align="right">0.170568871</td>
+        <td align="right">0.479087</td>
+        <td align="right">0.054974766</td>
+        <td align="right">0.088938234</td>
+        <td align="right">0.25</td>
+        <td align="right">0.214</td>
+        <td align="right">0.229</td>
+        <td align="right">0.2077</td>
+        <td align="right">0.021</td>
+        <td align="right">0.042</td>
+        </tr>
+        <tr>
+        <td>Roenis Elias</td>
+        <td align="right">0.15717</td>
+        <td align="right">0.05702229</td>
+        <td align="right">0.29280771</td>
+        <td align="right">0.379175</td>
+        <td align="right">0.041565425</td>
+        <td align="right">0.102259575</td>
+        <td align="right">0.197</td>
+        <td align="right">0.2139</td>
+        <td align="right">0.085</td>
+        <td align="right">0.083</td>
+        <td align="right">0.113</td>
+        <td align="right">0.1333</td>
+        </tr>
+        <tr>
+        <td>Alex Cobb</td>
+        <td align="right">0.12215</td>
+        <td align="right">0.0217776</td>
+        <td align="right">0.2050724</td>
+        <td align="right">0.348943</td>
+        <td align="right">0.070399665</td>
+        <td align="right">0.133657335</td>
+        <td align="right">0.133</td>
+        <td align="right">0.2135</td>
+        <td align="right">0.033</td>
+        <td align="right">0.0459</td>
+        <td align="right">0.1</td>
+        <td align="right">0.1391</td>
+        </tr>
+        <tr>
+        <td>Cory Gearrin</td>
+        <td align="right">0.117236</td>
+        <td align="right">0.051767856</td>
+        <td align="right">0.201996144</td>
+        <td align="right">0.363302</td>
+        <td align="right">0.054550818</td>
+        <td align="right">0.069147182</td>
+        <td align="right">0.289</td>
+        <td align="right">0.2131</td>
+        <td align="right">0.173</td>
+        <td align="right">0.0695</td>
+        <td align="right">0.115</td>
+        <td align="right">0.1696</td>
+        </tr>
+        <tr>
+        <td>Marcus Stroman</td>
+        <td align="right">0.135538</td>
+        <td align="right">0.023626118</td>
+        <td align="right">0.241835882</td>
+        <td align="right">0.38664</td>
+        <td align="right">0.0804426</td>
+        <td align="right">0.0699174</td>
+        <td align="right">0.238</td>
+        <td align="right">0.2129</td>
+        <td align="right">0.093</td>
+        <td align="right">0.0919</td>
+        <td align="right">0.146</td>
+        <td align="right">0.1039</td>
+        </tr>
+        <tr>
+        <td>Jeff Samardzija</td>
+        <td align="right">0.143089</td>
+        <td align="right">0.045286561</td>
+        <td align="right">0.254624439</td>
+        <td align="right">0.396331</td>
+        <td align="right">0.052542087</td>
+        <td align="right">0.110126913</td>
+        <td align="right">0.22</td>
+        <td align="right">0.2125</td>
+        <td align="right">0.083</td>
+        <td align="right">0.0917</td>
+        <td align="right">0.138</td>
+        <td align="right">0.1326</td>
+        </tr>
+        <tr>
+        <td>Alex Claudio</td>
+        <td align="right">0.172752</td>
+        <td align="right">0.030533184</td>
+        <td align="right">0.162714816</td>
+        <td align="right">0.406912</td>
+        <td align="right">0.055432512</td>
+        <td align="right">0.115655488</td>
+        <td align="right">0.14</td>
+        <td align="right">0.2124</td>
+        <td align="right">0.12</td>
+        <td align="right">0.0823</td>
+        <td align="right">0.02</td>
+        <td align="right">0.1194</td>
+        </tr>
+        <tr>
+        <td>Merrill Kelly</td>
+        <td align="right">0.17475</td>
+        <td align="right">0.040775</td>
+        <td align="right">0.250475</td>
+        <td align="right">0.511128</td>
+        <td align="right">0.055047936</td>
+        <td align="right">0.120824064</td>
+        <td align="right">0.211</td>
+        <td align="right">0.2118</td>
+        <td align="right">0.094</td>
+        <td align="right">0.1456</td>
+        <td align="right">0.117</td>
+        <td align="right">0.0531</td>
+        </tr>
+        <tr>
+        <td>Matt Grace</td>
+        <td align="right">0.16302</td>
+        <td align="right">0.03016022</td>
+        <td align="right">0.18681978</td>
+        <td align="right">0.403209</td>
+        <td align="right">0.068143599</td>
+        <td align="right">0.167647401</td>
+        <td align="right">0.196</td>
+        <td align="right">0.211</td>
+        <td align="right">0.078</td>
+        <td align="right">0.0783</td>
+        <td align="right">0.118</td>
+        <td align="right">0.1186</td>
+        </tr>
+        <tr>
+        <td>Tyler Chatwood</td>
+        <td align="right">0.143864</td>
+        <td align="right">0.046412288</td>
+        <td align="right">0.176723712</td>
+        <td align="right">0.384293</td>
+        <td align="right">0.046991412</td>
+        <td align="right">0.101715588</td>
+        <td align="right">0.167</td>
+        <td align="right">0.2103</td>
+        <td align="right">0.167</td>
+        <td align="right">0.0747</td>
+        <td align="right">0</td>
+        <td align="right">0.1092</td>
+        </tr>
+        <tr>
+        <td>Michael Pineda</td>
+        <td align="right">0.132628</td>
+        <td align="right">0.0585151</td>
+        <td align="right">0.2758569</td>
+        <td align="right">0.336469</td>
+        <td align="right">0.044467087</td>
+        <td align="right">0.116063913</td>
+        <td align="right">0.202</td>
+        <td align="right">0.2095</td>
+        <td align="right">0.051</td>
+        <td align="right">0.0587</td>
+        <td align="right">0.152</td>
+        <td align="right">0.1574</td>
+        </tr>
+        <tr>
+        <td>Kevin Gausman</td>
+        <td align="right">0.0957</td>
+        <td align="right">0.0451617</td>
+        <td align="right">0.2071383</td>
+        <td align="right">0.333658</td>
+        <td align="right">0.07375654</td>
+        <td align="right">0.12558546</td>
+        <td align="right">0.286</td>
+        <td align="right">0.2092</td>
+        <td align="right">0.082</td>
+        <td align="right">0.0591</td>
+        <td align="right">0.204</td>
+        <td align="right">0.1306</td>
+        </tr>
+        <tr>
+        <td>Max Fried</td>
+        <td align="right">0.152154</td>
+        <td align="right">0.04183998</td>
+        <td align="right">0.28000602</td>
+        <td align="right">0.40793</td>
+        <td align="right">0.06031488</td>
+        <td align="right">0.09675512</td>
+        <td align="right">0.205</td>
+        <td align="right">0.2084</td>
+        <td align="right">0.055</td>
+        <td align="right">0.1067</td>
+        <td align="right">0.15</td>
+        <td align="right">0.0917</td>
+        </tr>
+        <tr>
+        <td>John Gant</td>
+        <td align="right">0.145215</td>
+        <td align="right">0.06631485</td>
+        <td align="right">0.24947015</td>
+        <td align="right">0.411684</td>
+        <td align="right">0.0503685</td>
+        <td align="right">0.0839475</td>
+        <td align="right">0.241</td>
+        <td align="right">0.208</td>
+        <td align="right">0.121</td>
+        <td align="right">0.1274</td>
+        <td align="right">0.121</td>
+        <td align="right">0.0921</td>
+        </tr>
+        <tr>
+        <td>Blaine Hardy</td>
+        <td align="right">0.13635</td>
+        <td align="right">0.0414018</td>
+        <td align="right">0.2722482</td>
+        <td align="right">0.395634</td>
+        <td align="right">0.054687486</td>
+        <td align="right">0.115678514</td>
+        <td align="right">0.174</td>
+        <td align="right">0.2076</td>
+        <td align="right">0.044</td>
+        <td align="right">0.0883</td>
+        <td align="right">0.13</td>
+        <td align="right">0.0806</td>
+        </tr>
+        <tr>
+        <td>Joakim Soria</td>
+        <td align="right">0.149308</td>
+        <td align="right">0.056181944</td>
+        <td align="right">0.252510056</td>
+        <td align="right">0.432744</td>
+        <td align="right">0.050368248</td>
+        <td align="right">0.100887752</td>
+        <td align="right">0.207</td>
+        <td align="right">0.2075</td>
+        <td align="right">0.121</td>
+        <td align="right">0.1122</td>
+        <td align="right">0.086</td>
+        <td align="right">0.0534</td>
+        </tr>
+        <tr>
+        <td>Anthony DeSclafani</td>
+        <td align="right">0.125685</td>
+        <td align="right">0.0567567</td>
+        <td align="right">0.2585583</td>
+        <td align="right">0.37536</td>
+        <td align="right">0.047124</td>
+        <td align="right">0.087516</td>
+        <td align="right">0.257</td>
+        <td align="right">0.2074</td>
+        <td align="right">0.101</td>
+        <td align="right">0.0883</td>
+        <td align="right">0.156</td>
+        <td align="right">0.1069</td>
+        </tr>
+        <tr>
+        <td>Yonny Chirinos</td>
+        <td align="right">0.126312</td>
+        <td align="right">0.041211</td>
+        <td align="right">0.288477</td>
+        <td align="right">0.419063</td>
+        <td align="right">0.074976375</td>
+        <td align="right">0.124960625</td>
+        <td align="right">0.234</td>
+        <td align="right">0.2074</td>
+        <td align="right">0.053</td>
+        <td align="right">0.1078</td>
+        <td align="right">0.181</td>
+        <td align="right">0.1184</td>
+        </tr>
+        <tr>
+        <td>J.A. Happ</td>
+        <td align="right">0.122892</td>
+        <td align="right">0.04721728</td>
+        <td align="right">0.24789072</td>
+        <td align="right">0.350152</td>
+        <td align="right">0.049247968</td>
+        <td align="right">0.106600032</td>
+        <td align="right">0.2</td>
+        <td align="right">0.2072</td>
+        <td align="right">0.073</td>
+        <td align="right">0.0794</td>
+        <td align="right">0.127</td>
+        <td align="right">0.1407</td>
+        </tr>
+        <tr>
+        <td>Steven Matz</td>
+        <td align="right">0.163548</td>
+        <td align="right">0.043872444</td>
+        <td align="right">0.254579556</td>
+        <td align="right">0.38319</td>
+        <td align="right">0.04815368</td>
+        <td align="right">0.09865632</td>
+        <td align="right">0.26</td>
+        <td align="right">0.207</td>
+        <td align="right">0.083</td>
+        <td align="right">0.073</td>
+        <td align="right">0.177</td>
+        <td align="right">0.1236</td>
+        </tr>
+        <tr>
+        <td>Richard Rodriguez</td>
+        <td align="right">0.133986</td>
+        <td align="right">0.03905154</td>
+        <td align="right">0.31596246</td>
+        <td align="right">0.397194</td>
+        <td align="right">0.07363143</td>
+        <td align="right">0.10817457</td>
+        <td align="right">0.226</td>
+        <td align="right">0.2069</td>
+        <td align="right">0.076</td>
+        <td align="right">0.0981</td>
+        <td align="right">0.151</td>
+        <td align="right">0.134</td>
+        </tr>
+        <tr>
+        <td>Nick Margevicius</td>
+        <td align="right">0.160632</td>
+        <td align="right">0.023816592</td>
+        <td align="right">0.229551408</td>
+        <td align="right">0.432345</td>
+        <td align="right">0.069226245</td>
+        <td align="right">0.113428755</td>
+        <td align="right">0.228</td>
+        <td align="right">0.2066</td>
+        <td align="right">0.069</td>
+        <td align="right">0.1051</td>
+        <td align="right">0.158</td>
+        <td align="right">0.0814</td>
+        </tr>
+        <tr>
+        <td>Kelvin Herrera</td>
+        <td align="right">0.175784</td>
+        <td align="right">0.039890704</td>
+        <td align="right">0.295325296</td>
+        <td align="right">0.392942</td>
+        <td align="right">0.054356588</td>
+        <td align="right">0.135701412</td>
+        <td align="right">0.229</td>
+        <td align="right">0.2061</td>
+        <td align="right">0.063</td>
+        <td align="right">0.0851</td>
+        <td align="right">0.167</td>
+        <td align="right">0.0879</td>
+        </tr>
+        <tr>
+        <td>Austin Brice</td>
+        <td align="right">0.18318</td>
+        <td align="right">0.01900514</td>
+        <td align="right">0.22781486</td>
+        <td align="right">0.40432</td>
+        <td align="right">0.0560448</td>
+        <td align="right">0.0996352</td>
+        <td align="right">0.174</td>
+        <td align="right">0.2058</td>
+        <td align="right">0.109</td>
+        <td align="right">0.0789</td>
+        <td align="right">0.065</td>
+        <td align="right">0.0997</td>
+        </tr>
+        <tr>
+        <td>Zack Wheeler</td>
+        <td align="right">0.154872</td>
+        <td align="right">0.061071192</td>
+        <td align="right">0.262056808</td>
+        <td align="right">0.422045</td>
+        <td align="right">0.04081259</td>
+        <td align="right">0.09614241</td>
+        <td align="right">0.26</td>
+        <td align="right">0.2058</td>
+        <td align="right">0.11</td>
+        <td align="right">0.1297</td>
+        <td align="right">0.15</td>
+        <td align="right">0.0444</td>
+        </tr>
+        <tr>
+        <td>Vince Velasquez</td>
+        <td align="right">0.132756</td>
+        <td align="right">0.046064112</td>
+        <td align="right">0.265179888</td>
+        <td align="right">0.434644</td>
+        <td align="right">0.058741956</td>
+        <td align="right">0.108614044</td>
+        <td align="right">0.244</td>
+        <td align="right">0.2052</td>
+        <td align="right">0.078</td>
+        <td align="right">0.1096</td>
+        <td align="right">0.167</td>
+        <td align="right">0.077</td>
+        </tr>
+        <tr>
+        <td>Luke Weaver</td>
+        <td align="right">0.145692</td>
+        <td align="right">0.04344774</td>
+        <td align="right">0.23686026</td>
+        <td align="right">0.392562</td>
+        <td align="right">0.059287284</td>
+        <td align="right">0.127150716</td>
+        <td align="right">0.274</td>
+        <td align="right">0.2046</td>
+        <td align="right">0.053</td>
+        <td align="right">0.0753</td>
+        <td align="right">0.221</td>
+        <td align="right">0.105</td>
+        </tr>
+        <tr>
+        <td>Reynaldo Lopez</td>
+        <td align="right">0.139832</td>
+        <td align="right">0.038642664</td>
+        <td align="right">0.275525336</td>
+        <td align="right">0.438124</td>
+        <td align="right">0.060286556</td>
+        <td align="right">0.079589444</td>
+        <td align="right">0.207</td>
+        <td align="right">0.2039</td>
+        <td align="right">0.116</td>
+        <td align="right">0.1264</td>
+        <td align="right">0.091</td>
+        <td align="right">0.0858</td>
+        </tr>
+        <tr>
+        <td>J.B. Wendelken</td>
+        <td align="right">0.126132</td>
+        <td align="right">0.05128454</td>
+        <td align="right">0.27958346</td>
+        <td align="right">0.429088</td>
+        <td align="right">0.066028248</td>
+        <td align="right">0.087883752</td>
+        <td align="right">0.294</td>
+        <td align="right">0.203</td>
+        <td align="right">0.044</td>
+        <td align="right">0.1213</td>
+        <td align="right">0.25</td>
+        <td align="right">0.0976</td>
+        </tr>
+        <tr>
+        <td>Pat Neshek</td>
+        <td align="right">0.176917</td>
+        <td align="right">0.042719529</td>
+        <td align="right">0.219363471</td>
+        <td align="right">0.363164</td>
+        <td align="right">0.054467916</td>
+        <td align="right">0.139368084</td>
+        <td align="right">0.106</td>
+        <td align="right">0.2024</td>
+        <td align="right">0.021</td>
+        <td align="right">0.0622</td>
+        <td align="right">0.085</td>
+        <td align="right">0.1463</td>
+        </tr>
+        <tr>
+        <td>Clayton Kershaw</td>
+        <td align="right">0.113702</td>
+        <td align="right">0.03986523</td>
+        <td align="right">0.25543277</td>
+        <td align="right">0.316725</td>
+        <td align="right">0.07931</td>
+        <td align="right">0.118965</td>
+        <td align="right">0.271</td>
+        <td align="right">0.2023</td>
+        <td align="right">0.083</td>
+        <td align="right">0.0594</td>
+        <td align="right">0.188</td>
+        <td align="right">0.1487</td>
+        </tr>
+        <tr>
+        <td>Felix Hernandez</td>
+        <td align="right">0.191224</td>
+        <td align="right">0.018444096</td>
+        <td align="right">0.241331904</td>
+        <td align="right">0.399228</td>
+        <td align="right">0.070882128</td>
+        <td align="right">0.147889872</td>
+        <td align="right">0.194</td>
+        <td align="right">0.2017</td>
+        <td align="right">0.028</td>
+        <td align="right">0.0732</td>
+        <td align="right">0.167</td>
+        <td align="right">0.1031</td>
+        </tr>
+        <tr>
+        <td>Justin Verlander</td>
+        <td align="right">0.136308</td>
+        <td align="right">0.058153788</td>
+        <td align="right">0.249538212</td>
+        <td align="right">0.376947</td>
+        <td align="right">0.081438762</td>
+        <td align="right">0.148614238</td>
+        <td align="right">0.305</td>
+        <td align="right">0.2014</td>
+        <td align="right">0.06</td>
+        <td align="right">0.0808</td>
+        <td align="right">0.245</td>
+        <td align="right">0.1651</td>
+        </tr>
+        <tr>
+        <td>Zack Godley</td>
+        <td align="right">0.120819</td>
+        <td align="right">0.022425023</td>
+        <td align="right">0.247755977</td>
+        <td align="right">0.434375</td>
+        <td align="right">0.08578125</td>
+        <td align="right">0.10484375</td>
+        <td align="right">0.176</td>
+        <td align="right">0.2013</td>
+        <td align="right">0.112</td>
+        <td align="right">0.1271</td>
+        <td align="right">0.064</td>
+        <td align="right">0.072</td>
+        </tr>
+        <tr>
+        <td>Lance Lynn</td>
+        <td align="right">0.163782</td>
+        <td align="right">0.036088416</td>
+        <td align="right">0.286129584</td>
+        <td align="right">0.432426</td>
+        <td align="right">0.047564532</td>
+        <td align="right">0.102009468</td>
+        <td align="right">0.189</td>
+        <td align="right">0.2009</td>
+        <td align="right">0.063</td>
+        <td align="right">0.114</td>
+        <td align="right">0.126</td>
+        <td align="right">0.0586</td>
+        </tr>
+        <tr>
+        <td>Tyler Mahle</td>
+        <td align="right">0.156604</td>
+        <td align="right">0.039285708</td>
+        <td align="right">0.280110292</td>
+        <td align="right">0.358668</td>
+        <td align="right">0.054625428</td>
+        <td align="right">0.072706572</td>
+        <td align="right">0.258</td>
+        <td align="right">0.2005</td>
+        <td align="right">0.043</td>
+        <td align="right">0.0692</td>
+        <td align="right">0.215</td>
+        <td align="right">0.1499</td>
+        </tr>
+        <tr>
+        <td>Madison Bumgarner</td>
+        <td align="right">0.144235</td>
+        <td align="right">0.03604874</td>
+        <td align="right">0.27471626</td>
+        <td align="right">0.394741</td>
+        <td align="right">0.07761842</td>
+        <td align="right">0.12664058</td>
+        <td align="right">0.229</td>
+        <td align="right">0.2001</td>
+        <td align="right">0.033</td>
+        <td align="right">0.0865</td>
+        <td align="right">0.196</td>
+        <td align="right">0.1289</td>
+        </tr>
+        <tr>
+        <td>Tyler Skaggs</td>
+        <td align="right">0.164592</td>
+        <td align="right">0.027810432</td>
+        <td align="right">0.239597568</td>
+        <td align="right">0.42559</td>
+        <td align="right">0.05147307</td>
+        <td align="right">0.10593693</td>
+        <td align="right">0.235</td>
+        <td align="right">0.1999</td>
+        <td align="right">0.062</td>
+        <td align="right">0.1035</td>
+        <td align="right">0.173</td>
+        <td align="right">0.0776</td>
+        </tr>
+        <tr>
+        <td>Manny Banuelos</td>
+        <td align="right">0.126939</td>
+        <td align="right">0.040973394</td>
+        <td align="right">0.225087606</td>
+        <td align="right">0.409236</td>
+        <td align="right">0.051577988</td>
+        <td align="right">0.048186012</td>
+        <td align="right">0.224</td>
+        <td align="right">0.1998</td>
+        <td align="right">0.138</td>
+        <td align="right">0.1064</td>
+        <td align="right">0.086</td>
+        <td align="right">0.0956</td>
+        </tr>
+        <tr>
+        <td>Scott Barlow</td>
+        <td align="right">0.151177</td>
+        <td align="right">0.036474158</td>
+        <td align="right">0.213348842</td>
+        <td align="right">0.381455</td>
+        <td align="right">0.06049673</td>
+        <td align="right">0.09304827</td>
+        <td align="right">0.289</td>
+        <td align="right">0.1995</td>
+        <td align="right">0.089</td>
+        <td align="right">0.0882</td>
+        <td align="right">0.2</td>
+        <td align="right">0.1168</td>
+        </tr>
+        <tr>
+        <td>Javy Guerra</td>
+        <td align="right">0.17646</td>
+        <td align="right">0.03935772</td>
+        <td align="right">0.29418228</td>
+        <td align="right">0.434754</td>
+        <td align="right">0.03092166</td>
+        <td align="right">0.11632434</td>
+        <td align="right">0.279</td>
+        <td align="right">0.1994</td>
+        <td align="right">0.093</td>
+        <td align="right">0.1112</td>
+        <td align="right">0.186</td>
+        <td align="right">0.0397</td>
+        </tr>
+        <tr>
+        <td>Mike Soroka</td>
+        <td align="right">0.16555</td>
+        <td align="right">0.0571212</td>
+        <td align="right">0.2073288</td>
+        <td align="right">0.301456</td>
+        <td align="right">0.045305568</td>
+        <td align="right">0.107238432</td>
+        <td align="right">0.265</td>
+        <td align="right">0.1992</td>
+        <td align="right">0.102</td>
+        <td align="right">0.0741</td>
+        <td align="right">0.163</td>
+        <td align="right">0.1483</td>
+        </tr>
+        <tr>
+        <td>Zack Greinke</td>
+        <td align="right">0.164865</td>
+        <td align="right">0.023768985</td>
+        <td align="right">0.190366015</td>
+        <td align="right">0.346528</td>
+        <td align="right">0.054897216</td>
+        <td align="right">0.142574784</td>
+        <td align="right">0.275</td>
+        <td align="right">0.199</td>
+        <td align="right">0.049</td>
+        <td align="right">0.0493</td>
+        <td align="right">0.225</td>
+        <td align="right">0.1254</td>
+        </tr>
+        <tr>
+        <td>Liam Hendriks</td>
+        <td align="right">0.133238</td>
+        <td align="right">0.047219634</td>
+        <td align="right">0.253542366</td>
+        <td align="right">0.44541</td>
+        <td align="right">0.05042526</td>
+        <td align="right">0.11016474</td>
+        <td align="right">0.232</td>
+        <td align="right">0.1988</td>
+        <td align="right">0.125</td>
+        <td align="right">0.1037</td>
+        <td align="right">0.107</td>
+        <td align="right">0.0447</td>
+        </tr>
+        <tr>
+        <td>Ryne Harper</td>
+        <td align="right">0.142002</td>
+        <td align="right">0.0511497</td>
+        <td align="right">0.2898483</td>
+        <td align="right">0.405275</td>
+        <td align="right">0.049192</td>
+        <td align="right">0.104533</td>
+        <td align="right">0.191</td>
+        <td align="right">0.1979</td>
+        <td align="right">0.071</td>
+        <td align="right">0.0961</td>
+        <td align="right">0.119</td>
+        <td align="right">0.0792</td>
+        </tr>
+        <tr>
+        <td>Wade LeBlanc</td>
+        <td align="right">0.151434</td>
+        <td align="right">0.03530358</td>
+        <td align="right">0.23626242</td>
+        <td align="right">0.394065</td>
+        <td align="right">0.0587979</td>
+        <td align="right">0.1141371</td>
+        <td align="right">0.158</td>
+        <td align="right">0.1977</td>
+        <td align="right">0.066</td>
+        <td align="right">0.0938</td>
+        <td align="right">0.092</td>
+        <td align="right">0.1073</td>
+        </tr>
+        <tr>
+        <td>Yusmeiro Petit</td>
+        <td align="right">0.10176</td>
+        <td align="right">0.05560128</td>
+        <td align="right">0.22663872</td>
+        <td align="right">0.376992</td>
+        <td align="right">0.027785472</td>
+        <td align="right">0.123222528</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1974</td>
+        <td align="right">0.036</td>
+        <td align="right">0.1014</td>
+        <td align="right">0.107</td>
+        <td align="right">0.0893</td>
+        </tr>
+        <tr>
+        <td>Marco Gonzales</td>
+        <td align="right">0.194625</td>
+        <td align="right">0.03178875</td>
+        <td align="right">0.29258625</td>
+        <td align="right">0.375524</td>
+        <td align="right">0.046468136</td>
+        <td align="right">0.116007864</td>
+        <td align="right">0.184</td>
+        <td align="right">0.1973</td>
+        <td align="right">0.049</td>
+        <td align="right">0.074</td>
+        <td align="right">0.135</td>
+        <td align="right">0.0822</td>
+        </tr>
+        <tr>
+        <td>Thomas Pannone</td>
+        <td align="right">0.104656</td>
+        <td align="right">0.06822896</td>
+        <td align="right">0.24911504</td>
+        <td align="right">0.36762</td>
+        <td align="right">0.04242112</td>
+        <td align="right">0.14695888</td>
+        <td align="right">0.3</td>
+        <td align="right">0.1969</td>
+        <td align="right">0.05</td>
+        <td align="right">0.0662</td>
+        <td align="right">0.25</td>
+        <td align="right">0.1359</td>
+        </tr>
+        <tr>
+        <td>Rick Porcello</td>
+        <td align="right">0.146771</td>
+        <td align="right">0.049647953</td>
+        <td align="right">0.266581047</td>
+        <td align="right">0.411344</td>
+        <td align="right">0.043681232</td>
+        <td align="right">0.091974768</td>
+        <td align="right">0.171</td>
+        <td align="right">0.1969</td>
+        <td align="right">0.128</td>
+        <td align="right">0.1125</td>
+        <td align="right">0.043</td>
+        <td align="right">0.0708</td>
+        </tr>
+        <tr>
+        <td>Tyler Thornburg</td>
+        <td align="right">0.150328</td>
+        <td align="right">0.02436712</td>
+        <td align="right">0.26230488</td>
+        <td align="right">0.432003</td>
+        <td align="right">0.065381701</td>
+        <td align="right">0.085615299</td>
+        <td align="right">0.255</td>
+        <td align="right">0.1965</td>
+        <td align="right">0.106</td>
+        <td align="right">0.1497</td>
+        <td align="right">0.149</td>
+        <td align="right">0.0561</td>
+        </tr>
+        <tr>
+        <td>Ian Kennedy</td>
+        <td align="right">0.092432</td>
+        <td align="right">0.034151504</td>
+        <td align="right">0.297416496</td>
+        <td align="right">0.482979</td>
+        <td align="right">0.0750105</td>
+        <td align="right">0.0750105</td>
+        <td align="right">0.321</td>
+        <td align="right">0.1962</td>
+        <td align="right">0.038</td>
+        <td align="right">0.2131</td>
+        <td align="right">0.283</td>
+        <td align="right">0.0394</td>
+        </tr>
+        <tr>
+        <td>Freddy Peralta</td>
+        <td align="right">0.163897</td>
+        <td align="right">0.056644068</td>
+        <td align="right">0.306458932</td>
+        <td align="right">0.43602</td>
+        <td align="right">0.04218214</td>
+        <td align="right">0.08079786</td>
+        <td align="right">0.265</td>
+        <td align="right">0.1961</td>
+        <td align="right">0.084</td>
+        <td align="right">0.1203</td>
+        <td align="right">0.181</td>
+        <td align="right">0.0463</td>
+        </tr>
+        <tr>
+        <td>Josh Tomlin</td>
+        <td align="right">0.12505</td>
+        <td align="right">0.0279251</td>
+        <td align="right">0.2570249</td>
+        <td align="right">0.365086</td>
+        <td align="right">0.071598406</td>
+        <td align="right">0.117315594</td>
+        <td align="right">0.256</td>
+        <td align="right">0.1927</td>
+        <td align="right">0</td>
+        <td align="right">0.0533</td>
+        <td align="right">0.256</td>
+        <td align="right">0.1083</td>
+        </tr>
+        <tr>
+        <td>Mark Melancon</td>
+        <td align="right">0.133903</td>
+        <td align="right">0.034956416</td>
+        <td align="right">0.238140584</td>
+        <td align="right">0.492445</td>
+        <td align="right">0.05832003</td>
+        <td align="right">0.11023497</td>
+        <td align="right">0.178</td>
+        <td align="right">0.1927</td>
+        <td align="right">0.067</td>
+        <td align="right">0.1472</td>
+        <td align="right">0.111</td>
+        <td align="right">0.0543</td>
+        </tr>
+        <tr>
+        <td>Drew Pomeranz</td>
+        <td align="right">0.14432</td>
+        <td align="right">0.04967424</td>
+        <td align="right">0.24600576</td>
+        <td align="right">0.418236</td>
+        <td align="right">0.04407858</td>
+        <td align="right">0.08368542</td>
+        <td align="right">0.267</td>
+        <td align="right">0.1925</td>
+        <td align="right">0.095</td>
+        <td align="right">0.1206</td>
+        <td align="right">0.171</td>
+        <td align="right">0.0579</td>
+        </tr>
+        <tr>
+        <td>Dylan Floro</td>
+        <td align="right">0.153357</td>
+        <td align="right">0.046705375</td>
+        <td align="right">0.326937625</td>
+        <td align="right">0.381258</td>
+        <td align="right">0.0449226</td>
+        <td align="right">0.1048194</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1924</td>
+        <td align="right">0</td>
+        <td align="right">0.0848</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1117</td>
+        </tr>
+        <tr>
+        <td>Chase Anderson</td>
+        <td align="right">0.135562</td>
+        <td align="right">0.04995165</td>
+        <td align="right">0.23548635</td>
+        <td align="right">0.344528</td>
+        <td align="right">0.04447632</td>
+        <td align="right">0.09899568</td>
+        <td align="right">0.265</td>
+        <td align="right">0.192</td>
+        <td align="right">0.108</td>
+        <td align="right">0.0867</td>
+        <td align="right">0.157</td>
+        <td align="right">0.125</td>
+        </tr>
+        <tr>
+        <td>Mike Fiers</td>
+        <td align="right">0.153425</td>
+        <td align="right">0.038910575</td>
+        <td align="right">0.282664425</td>
+        <td align="right">0.405405</td>
+        <td align="right">0.04395384</td>
+        <td align="right">0.11764116</td>
+        <td align="right">0.172</td>
+        <td align="right">0.1919</td>
+        <td align="right">0.069</td>
+        <td align="right">0.0787</td>
+        <td align="right">0.103</td>
+        <td align="right">0.0514</td>
+        </tr>
+        <tr>
+        <td>Walker Buehler</td>
+        <td align="right">0.11704</td>
+        <td align="right">0.0549032</td>
+        <td align="right">0.2680568</td>
+        <td align="right">0.448086</td>
+        <td align="right">0.041596362</td>
+        <td align="right">0.083317638</td>
+        <td align="right">0.184</td>
+        <td align="right">0.1914</td>
+        <td align="right">0.082</td>
+        <td align="right">0.1195</td>
+        <td align="right">0.102</td>
+        <td align="right">0.0413</td>
+        </tr>
+        <tr>
+        <td>Kyle Hendricks</td>
+        <td align="right">0.180808</td>
+        <td align="right">0.02709324</td>
+        <td align="right">0.25809876</td>
+        <td align="right">0.40078</td>
+        <td align="right">0.05394522</td>
+        <td align="right">0.12527478</td>
+        <td align="right">0.202</td>
+        <td align="right">0.191</td>
+        <td align="right">0.067</td>
+        <td align="right">0.0873</td>
+        <td align="right">0.135</td>
+        <td align="right">0.0932</td>
+        </tr>
+        <tr>
+        <td>Matt Harvey</td>
+        <td align="right">0.128027</td>
+        <td align="right">0.051340599</td>
+        <td align="right">0.263632401</td>
+        <td align="right">0.335673</td>
+        <td align="right">0.051037245</td>
+        <td align="right">0.066289755</td>
+        <td align="right">0.143</td>
+        <td align="right">0.191</td>
+        <td align="right">0.089</td>
+        <td align="right">0.0672</td>
+        <td align="right">0.054</td>
+        <td align="right">0.1641</td>
+        </tr>
+        <tr>
+        <td>Yusei Kikuchi</td>
+        <td align="right">0.171533</td>
+        <td align="right">0.034759101</td>
+        <td align="right">0.302707899</td>
+        <td align="right">0.426482</td>
+        <td align="right">0.053401516</td>
+        <td align="right">0.094116484</td>
+        <td align="right">0.177</td>
+        <td align="right">0.1907</td>
+        <td align="right">0.057</td>
+        <td align="right">0.1128</td>
+        <td align="right">0.121</td>
+        <td align="right">0.0802</td>
+        </tr>
+        <tr>
+        <td>Juan Nicasio</td>
+        <td align="right">0.132568</td>
+        <td align="right">0.051107688</td>
+        <td align="right">0.270324312</td>
+        <td align="right">0.451786</td>
+        <td align="right">0.047940526</td>
+        <td align="right">0.069273474</td>
+        <td align="right">0.161</td>
+        <td align="right">0.1907</td>
+        <td align="right">0.107</td>
+        <td align="right">0.1582</td>
+        <td align="right">0.054</td>
+        <td align="right">0.0642</td>
+        </tr>
+        <tr>
+        <td>Chris Martin</td>
+        <td align="right">0.159451</td>
+        <td align="right">0.042943625</td>
+        <td align="right">0.300605375</td>
+        <td align="right">0.466116</td>
+        <td align="right">0.048254724</td>
+        <td align="right">0.136629276</td>
+        <td align="right">0.191</td>
+        <td align="right">0.1903</td>
+        <td align="right">0.048</td>
+        <td align="right">0.1194</td>
+        <td align="right">0.143</td>
+        <td align="right">0.0783</td>
+        </tr>
+        <tr>
+        <td>Trent Thornton</td>
+        <td align="right">0.11856</td>
+        <td align="right">0.02431392</td>
+        <td align="right">0.23712608</td>
+        <td align="right">0.411084</td>
+        <td align="right">0.07976472</td>
+        <td align="right">0.11015128</td>
+        <td align="right">0.26</td>
+        <td align="right">0.1879</td>
+        <td align="right">0.07</td>
+        <td align="right">0.1018</td>
+        <td align="right">0.19</td>
+        <td align="right">0.0674</td>
+        </tr>
+        <tr>
+        <td>Adam Kolarek</td>
+        <td align="right">0.115238</td>
+        <td align="right">0.036001966</td>
+        <td align="right">0.215760034</td>
+        <td align="right">0.423792</td>
+        <td align="right">0.06676032</td>
+        <td align="right">0.16344768</td>
+        <td align="right">0.159</td>
+        <td align="right">0.1867</td>
+        <td align="right">0.068</td>
+        <td align="right">0.0671</td>
+        <td align="right">0.091</td>
+        <td align="right">0.1095</td>
+        </tr>
+        <tr>
+        <td>Jorge Lopez</td>
+        <td align="right">0.152342</td>
+        <td align="right">0.035594856</td>
+        <td align="right">0.234063144</td>
+        <td align="right">0.376166</td>
+        <td align="right">0.067932588</td>
+        <td align="right">0.109901412</td>
+        <td align="right">0.227</td>
+        <td align="right">0.1858</td>
+        <td align="right">0.07</td>
+        <td align="right">0.0865</td>
+        <td align="right">0.156</td>
+        <td align="right">0.141</td>
+        </tr>
+        <tr>
+        <td>Adrian Sampson</td>
+        <td align="right">0.133635</td>
+        <td align="right">0.03960126</td>
+        <td align="right">0.27976374</td>
+        <td align="right">0.435</td>
+        <td align="right">0.058</td>
+        <td align="right">0.087</td>
+        <td align="right">0.151</td>
+        <td align="right">0.185</td>
+        <td align="right">0.086</td>
+        <td align="right">0.1316</td>
+        <td align="right">0.065</td>
+        <td align="right">0.083</td>
+        </tr>
+        <tr>
+        <td>Trevor Williams</td>
+        <td align="right">0.1197</td>
+        <td align="right">0.0498753</td>
+        <td align="right">0.2804247</td>
+        <td align="right">0.372051</td>
+        <td align="right">0.057044403</td>
+        <td align="right">0.173904597</td>
+        <td align="right">0.168</td>
+        <td align="right">0.1847</td>
+        <td align="right">0.048</td>
+        <td align="right">0.0546</td>
+        <td align="right">0.12</td>
+        <td align="right">0.1406</td>
+        </tr>
+        <tr>
+        <td>Joe Kelly</td>
+        <td align="right">0.19074</td>
+        <td align="right">0.0287334</td>
+        <td align="right">0.2905266</td>
+        <td align="right">0.432692</td>
+        <td align="right">0.054881548</td>
+        <td align="right">0.140426452</td>
+        <td align="right">0.196</td>
+        <td align="right">0.1844</td>
+        <td align="right">0.036</td>
+        <td align="right">0.0976</td>
+        <td align="right">0.161</td>
+        <td align="right">0.07</td>
+        </tr>
+        <tr>
+        <td>Alex Wilson</td>
+        <td align="right">0.108851</td>
+        <td align="right">0.010266705</td>
+        <td align="right">0.217882295</td>
+        <td align="right">0.342453</td>
+        <td align="right">0.076043501</td>
+        <td align="right">0.122503499</td>
+        <td align="right">0.241</td>
+        <td align="right">0.1835</td>
+        <td align="right">0.148</td>
+        <td align="right">0.051</td>
+        <td align="right">0.093</td>
+        <td align="right">0.1363</td>
+        </tr>
+        <tr>
+        <td>Ryan Burr</td>
+        <td align="right">0.148</td>
+        <td align="right">0.039072</td>
+        <td align="right">0.312928</td>
+        <td align="right">0.519378</td>
+        <td align="right">0.044634408</td>
+        <td align="right">0.077987592</td>
+        <td align="right">0.185</td>
+        <td align="right">0.1835</td>
+        <td align="right">0.074</td>
+        <td align="right">0.1744</td>
+        <td align="right">0.111</td>
+        <td align="right">0.023</td>
+        </tr>
+        <tr>
+        <td>Brett Anderson</td>
+        <td align="right">0.16884</td>
+        <td align="right">0.0285152</td>
+        <td align="right">0.2716448</td>
+        <td align="right">0.39442</td>
+        <td align="right">0.05016596</td>
+        <td align="right">0.08841404</td>
+        <td align="right">0.14</td>
+        <td align="right">0.1833</td>
+        <td align="right">0.088</td>
+        <td align="right">0.0991</td>
+        <td align="right">0.053</td>
+        <td align="right">0.1018</td>
+        </tr>
+        <tr>
+        <td>Ryan Yarbrough</td>
+        <td align="right">0.11954</td>
+        <td align="right">0.03973888</td>
+        <td align="right">0.27072112</td>
+        <td align="right">0.404538</td>
+        <td align="right">0.056097846</td>
+        <td align="right">0.112364154</td>
+        <td align="right">0.197</td>
+        <td align="right">0.1829</td>
+        <td align="right">0.056</td>
+        <td align="right">0.095</td>
+        <td align="right">0.141</td>
+        <td align="right">0.0757</td>
+        </tr>
+        <tr>
+        <td>Masahiro Tanaka</td>
+        <td align="right">0.1484</td>
+        <td align="right">0.0271728</td>
+        <td align="right">0.2244272</td>
+        <td align="right">0.344052</td>
+        <td align="right">0.05404232</td>
+        <td align="right">0.10490568</td>
+        <td align="right">0.211</td>
+        <td align="right">0.1826</td>
+        <td align="right">0.078</td>
+        <td align="right">0.0879</td>
+        <td align="right">0.134</td>
+        <td align="right">0.1347</td>
+        </tr>
+        <tr>
+        <td>Jhoulys Chacin</td>
+        <td align="right">0.137886</td>
+        <td align="right">0.041465898</td>
+        <td align="right">0.222648102</td>
+        <td align="right">0.444066</td>
+        <td align="right">0.036414576</td>
+        <td align="right">0.101519424</td>
+        <td align="right">0.205</td>
+        <td align="right">0.1815</td>
+        <td align="right">0.123</td>
+        <td align="right">0.1154</td>
+        <td align="right">0.082</td>
+        <td align="right">0.0555</td>
+        </tr>
+        <tr>
+        <td>Zack Britton</td>
+        <td align="right">0.137198</td>
+        <td align="right">0.027565428</td>
+        <td align="right">0.214236572</td>
+        <td align="right">0.37398</td>
+        <td align="right">0.05763086</td>
+        <td align="right">0.11038914</td>
+        <td align="right">0.234</td>
+        <td align="right">0.1807</td>
+        <td align="right">0.149</td>
+        <td align="right">0.0659</td>
+        <td align="right">0.085</td>
+        <td align="right">0.1353</td>
+        </tr>
+        <tr>
+        <td>Jakob Junis</td>
+        <td align="right">0.165935</td>
+        <td align="right">0.03233793</td>
+        <td align="right">0.23272707</td>
+        <td align="right">0.381128</td>
+        <td align="right">0.07194572</td>
+        <td align="right">0.11492628</td>
+        <td align="right">0.224</td>
+        <td align="right">0.1805</td>
+        <td align="right">0.07</td>
+        <td align="right">0.0769</td>
+        <td align="right">0.154</td>
+        <td align="right">0.1285</td>
+        </tr>
+        <tr>
+        <td>Hector Velazquez</td>
+        <td align="right">0.183064</td>
+        <td align="right">0.046565504</td>
+        <td align="right">0.237370496</td>
+        <td align="right">0.414992</td>
+        <td align="right">0.047438144</td>
+        <td align="right">0.129569856</td>
+        <td align="right">0.234</td>
+        <td align="right">0.18</td>
+        <td align="right">0.094</td>
+        <td align="right">0.1106</td>
+        <td align="right">0.141</td>
+        <td align="right">0.0909</td>
+        </tr>
+        <tr>
+        <td>Brad Peacock</td>
+        <td align="right">0.133399</td>
+        <td align="right">0.021808878</td>
+        <td align="right">0.257792122</td>
+        <td align="right">0.36072</td>
+        <td align="right">0.0582162</td>
+        <td align="right">0.0820638</td>
+        <td align="right">0.202</td>
+        <td align="right">0.18</td>
+        <td align="right">0.071</td>
+        <td align="right">0.1098</td>
+        <td align="right">0.131</td>
+        <td align="right">0.1029</td>
+        </tr>
+        <tr>
+        <td>Dominic Leone</td>
+        <td align="right">0.103751</td>
+        <td align="right">0.03318237</td>
+        <td align="right">0.22206663</td>
+        <td align="right">0.34112</td>
+        <td align="right">0.06658236</td>
+        <td align="right">0.12529764</td>
+        <td align="right">0.275</td>
+        <td align="right">0.1793</td>
+        <td align="right">0.118</td>
+        <td align="right">0.0579</td>
+        <td align="right">0.157</td>
+        <td align="right">0.1281</td>
+        </tr>
+        <tr>
+        <td>Matt Albers</td>
+        <td align="right">0.1612</td>
+        <td align="right">0.0162006</td>
+        <td align="right">0.2255994</td>
+        <td align="right">0.39558</td>
+        <td align="right">0.06662844</td>
+        <td align="right">0.10779156</td>
+        <td align="right">0.255</td>
+        <td align="right">0.1792</td>
+        <td align="right">0.043</td>
+        <td align="right">0.0972</td>
+        <td align="right">0.213</td>
+        <td align="right">0.0881</td>
+        </tr>
+        <tr>
+        <td>Fernando Rodney</td>
+        <td align="right">0.142662</td>
+        <td align="right">0.035666306</td>
+        <td align="right">0.224671694</td>
+        <td align="right">0.434385</td>
+        <td align="right">0.055598325</td>
+        <td align="right">0.101016675</td>
+        <td align="right">0.196</td>
+        <td align="right">0.1791</td>
+        <td align="right">0.13</td>
+        <td align="right">0.1236</td>
+        <td align="right">0.065</td>
+        <td align="right">0.0818</td>
+        </tr>
+        <tr>
+        <td>Mike Wright Jr.</td>
+        <td align="right">0.121208</td>
+        <td align="right">0.04564484</td>
+        <td align="right">0.26914716</td>
+        <td align="right">0.4439</td>
+        <td align="right">0.0500802</td>
+        <td align="right">0.0810198</td>
+        <td align="right">0.212</td>
+        <td align="right">0.1789</td>
+        <td align="right">0.106</td>
+        <td align="right">0.1255</td>
+        <td align="right">0.106</td>
+        <td align="right">0.0377</td>
+        </tr>
+        <tr>
+        <td>Matt Strahm</td>
+        <td align="right">0.139293</td>
+        <td align="right">0.051434292</td>
+        <td align="right">0.278272708</td>
+        <td align="right">0.394758</td>
+        <td align="right">0.042801486</td>
+        <td align="right">0.108440514</td>
+        <td align="right">0.194</td>
+        <td align="right">0.1784</td>
+        <td align="right">0.046</td>
+        <td align="right">0.0892</td>
+        <td align="right">0.148</td>
+        <td align="right">0.0881</td>
+        </tr>
+        <tr>
+        <td>Ivan Nova</td>
+        <td align="right">0.131274</td>
+        <td align="right">0.030070326</td>
+        <td align="right">0.267655674</td>
+        <td align="right">0.338884</td>
+        <td align="right">0.066431904</td>
+        <td align="right">0.126684096</td>
+        <td align="right">0.151</td>
+        <td align="right">0.1781</td>
+        <td align="right">0.05</td>
+        <td align="right">0.0475</td>
+        <td align="right">0.101</td>
+        <td align="right">0.1184</td>
+        </tr>
+        <tr>
+        <td>Nathan Eovaldi</td>
+        <td align="right">0.158479</td>
+        <td align="right">0.031698873</td>
+        <td align="right">0.248822127</td>
+        <td align="right">0.38532</td>
+        <td align="right">0.04902352</td>
+        <td align="right">0.08565648</td>
+        <td align="right">0.172</td>
+        <td align="right">0.1769</td>
+        <td align="right">0.118</td>
+        <td align="right">0.0867</td>
+        <td align="right">0.054</td>
+        <td align="right">0.0968</td>
+        </tr>
+        <tr>
+        <td>Caleb Ferguson</td>
+        <td align="right">0.120105</td>
+        <td align="right">0.048072615</td>
+        <td align="right">0.302822385</td>
+        <td align="right">0.370098</td>
+        <td align="right">0.047393424</td>
+        <td align="right">0.104508576</td>
+        <td align="right">0.241</td>
+        <td align="right">0.1767</td>
+        <td align="right">0.103</td>
+        <td align="right">0.0573</td>
+        <td align="right">0.138</td>
+        <td align="right">0.1318</td>
+        </tr>
+        <tr>
+        <td>Miles Mikolas</td>
+        <td align="right">0.183092</td>
+        <td align="right">0.02719218</td>
+        <td align="right">0.29271582</td>
+        <td align="right">0.405054</td>
+        <td align="right">0.045221798</td>
+        <td align="right">0.126724202</td>
+        <td align="right">0.131</td>
+        <td align="right">0.1766</td>
+        <td align="right">0.055</td>
+        <td align="right">0.0843</td>
+        <td align="right">0.076</td>
+        <td align="right">0.0493</td>
+        </tr>
+        <tr>
+        <td>Tyler Anderson</td>
+        <td align="right">0.15744</td>
+        <td align="right">0.03211776</td>
+        <td align="right">0.30244224</td>
+        <td align="right">0.365054</td>
+        <td align="right">0.049910936</td>
+        <td align="right">0.108035064</td>
+        <td align="right">0.143</td>
+        <td align="right">0.1766</td>
+        <td align="right">0.095</td>
+        <td align="right">0.0483</td>
+        <td align="right">0.048</td>
+        <td align="right">0.0989</td>
+        </tr>
+        <tr>
+        <td>Adalberto Mejia</td>
+        <td align="right">0.1148</td>
+        <td align="right">0.025092</td>
+        <td align="right">0.270108</td>
+        <td align="right">0.348549</td>
+        <td align="right">0.07070491</td>
+        <td align="right">0.10174609</td>
+        <td align="right">0.205</td>
+        <td align="right">0.1752</td>
+        <td align="right">0.136</td>
+        <td align="right">0.066</td>
+        <td align="right">0.068</td>
+        <td align="right">0.1201</td>
+        </tr>
+        <tr>
+        <td>Eric Lauer</td>
+        <td align="right">0.17248</td>
+        <td align="right">0.0269892</td>
+        <td align="right">0.2905308</td>
+        <td align="right">0.382616</td>
+        <td align="right">0.062900712</td>
+        <td align="right">0.120483288</td>
+        <td align="right">0.2</td>
+        <td align="right">0.175</td>
+        <td align="right">0.061</td>
+        <td align="right">0.0822</td>
+        <td align="right">0.139</td>
+        <td align="right">0.0969</td>
+        </tr>
+        <tr>
+        <td>Anibal Sanchez</td>
+        <td align="right">0.127448</td>
+        <td align="right">0.038168184</td>
+        <td align="right">0.190383816</td>
+        <td align="right">0.383346</td>
+        <td align="right">0.044711424</td>
+        <td align="right">0.129942576</td>
+        <td align="right">0.154</td>
+        <td align="right">0.1744</td>
+        <td align="right">0.123</td>
+        <td align="right">0.0768</td>
+        <td align="right">0.031</td>
+        <td align="right">0.1008</td>
+        </tr>
+        <tr>
+        <td>Brad Keller</td>
+        <td align="right">0.090852</td>
+        <td align="right">0.01612962</td>
+        <td align="right">0.23201838</td>
+        <td align="right">0.425661</td>
+        <td align="right">0.064423464</td>
+        <td align="right">0.106915536</td>
+        <td align="right">0.186</td>
+        <td align="right">0.1738</td>
+        <td align="right">0.128</td>
+        <td align="right">0.1235</td>
+        <td align="right">0.058</td>
+        <td align="right">0.0689</td>
+        </tr>
+        <tr>
+        <td>Homer Bailey</td>
+        <td align="right">0.118703</td>
+        <td align="right">0.03339564</td>
+        <td align="right">0.24490136</td>
+        <td align="right">0.373704</td>
+        <td align="right">0.067395888</td>
+        <td align="right">0.110900112</td>
+        <td align="right">0.267</td>
+        <td align="right">0.1736</td>
+        <td align="right">0.109</td>
+        <td align="right">0.0682</td>
+        <td align="right">0.158</td>
+        <td align="right">0.1132</td>
+        </tr>
+        <tr>
+        <td>Nick Pivetta</td>
+        <td align="right">0.147074</td>
+        <td align="right">0.039771342</td>
+        <td align="right">0.300154658</td>
+        <td align="right">0.42328</td>
+        <td align="right">0.0505648</td>
+        <td align="right">0.0981552</td>
+        <td align="right">0.172</td>
+        <td align="right">0.1728</td>
+        <td align="right">0.086</td>
+        <td align="right">0.1192</td>
+        <td align="right">0.086</td>
+        <td align="right">0.0451</td>
+        </tr>
+        <tr>
+        <td>Jesse Biddle</td>
+        <td align="right">0.178494</td>
+        <td align="right">0.029101226</td>
+        <td align="right">0.211404774</td>
+        <td align="right">0.437802</td>
+        <td align="right">0.0357594</td>
+        <td align="right">0.0834386</td>
+        <td align="right">0.19</td>
+        <td align="right">0.1721</td>
+        <td align="right">0.155</td>
+        <td align="right">0.1407</td>
+        <td align="right">0.035</td>
+        <td align="right">0.0751</td>
+        </tr>
+        <tr>
+        <td>Adam Wainwright</td>
+        <td align="right">0.1748</td>
+        <td align="right">0.0207138</td>
+        <td align="right">0.2414862</td>
+        <td align="right">0.48126</td>
+        <td align="right">0.04520142</td>
+        <td align="right">0.09053858</td>
+        <td align="right">0.206</td>
+        <td align="right">0.1714</td>
+        <td align="right">0.094</td>
+        <td align="right">0.1766</td>
+        <td align="right">0.112</td>
+        <td align="right">0.005</td>
+        </tr>
+        <tr>
+        <td>Jeanmar Gomez</td>
+        <td align="right">0.15162</td>
+        <td align="right">0.01509018</td>
+        <td align="right">0.23228982</td>
+        <td align="right">0.437138</td>
+        <td align="right">0.050188944</td>
+        <td align="right">0.110673056</td>
+        <td align="right">0.18</td>
+        <td align="right">0.1704</td>
+        <td align="right">0.06</td>
+        <td align="right">0.1139</td>
+        <td align="right">0.12</td>
+        <td align="right">0.0529</td>
+        </tr>
+        <tr>
+        <td>Jordan Zimmermann</td>
+        <td align="right">0.135525</td>
+        <td align="right">0.0258957</td>
+        <td align="right">0.2555793</td>
+        <td align="right">0.42008</td>
+        <td align="right">0.06321024</td>
+        <td align="right">0.10670976</td>
+        <td align="right">0.164</td>
+        <td align="right">0.1698</td>
+        <td align="right">0.086</td>
+        <td align="right">0.096</td>
+        <td align="right">0.078</td>
+        <td align="right">0.0342</td>
+        </tr>
+        <tr>
+        <td>Jordan Lyles</td>
+        <td align="right">0.143654</td>
+        <td align="right">0.020904912</td>
+        <td align="right">0.269441088</td>
+        <td align="right">0.350009</td>
+        <td align="right">0.060283751</td>
+        <td align="right">0.106707249</td>
+        <td align="right">0.25</td>
+        <td align="right">0.1682</td>
+        <td align="right">0.06</td>
+        <td align="right">0.0885</td>
+        <td align="right">0.191</td>
+        <td align="right">0.1037</td>
+        </tr>
+        <tr>
+        <td>Jeremy Hellickson</td>
+        <td align="right">0.181482</td>
+        <td align="right">0.009878792</td>
+        <td align="right">0.214639208</td>
+        <td align="right">0.4746</td>
+        <td align="right">0.0451548</td>
+        <td align="right">0.1582452</td>
+        <td align="right">0.119</td>
+        <td align="right">0.1641</td>
+        <td align="right">0.119</td>
+        <td align="right">0.1407</td>
+        <td align="right">0</td>
+        <td align="right">0.0417</td>
+        </tr>
+        <tr>
+        <td>Mike Leake</td>
+        <td align="right">0.15584</td>
+        <td align="right">0.03742108</td>
+        <td align="right">0.29373892</td>
+        <td align="right">0.401673</td>
+        <td align="right">0.048999522</td>
+        <td align="right">0.122327478</td>
+        <td align="right">0.195</td>
+        <td align="right">0.164</td>
+        <td align="right">0.047</td>
+        <td align="right">0.0687</td>
+        <td align="right">0.148</td>
+        <td align="right">0.0511</td>
+        </tr>
+        <tr>
+        <td>Daniel Norris</td>
+        <td align="right">0.148392</td>
+        <td align="right">0.025697464</td>
+        <td align="right">0.283910536</td>
+        <td align="right">0.399996</td>
+        <td align="right">0.048423364</td>
+        <td align="right">0.093580636</td>
+        <td align="right">0.188</td>
+        <td align="right">0.1637</td>
+        <td align="right">0.075</td>
+        <td align="right">0.0999</td>
+        <td align="right">0.113</td>
+        <td align="right">0.0683</td>
+        </tr>
+        <tr>
+        <td>Luis Garcia</td>
+        <td align="right">0.122694</td>
+        <td align="right">0.019705092</td>
+        <td align="right">0.220600908</td>
+        <td align="right">0.413472</td>
+        <td align="right">0.062754304</td>
+        <td align="right">0.107773696</td>
+        <td align="right">0.102</td>
+        <td align="right">0.1631</td>
+        <td align="right">0.225</td>
+        <td align="right">0.1105</td>
+        <td align="right">-0.122</td>
+        <td align="right">0.08</td>
+        </tr>
+        <tr>
+        <td>Matt Andriese</td>
+        <td align="right">0.142102</td>
+        <td align="right">0.033996882</td>
+        <td align="right">0.277901118</td>
+        <td align="right">0.382568</td>
+        <td align="right">0.049031808</td>
+        <td align="right">0.061400192</td>
+        <td align="right">0.254</td>
+        <td align="right">0.1626</td>
+        <td align="right">0.113</td>
+        <td align="right">0.0768</td>
+        <td align="right">0.141</td>
+        <td align="right">0.0877</td>
+        </tr>
+        <tr>
+        <td>Dereck Rodriguez</td>
+        <td align="right">0.142516</td>
+        <td align="right">0.041336856</td>
+        <td align="right">0.267147144</td>
+        <td align="right">0.377169</td>
+        <td align="right">0.042581413</td>
+        <td align="right">0.089249587</td>
+        <td align="right">0.198</td>
+        <td align="right">0.1624</td>
+        <td align="right">0.045</td>
+        <td align="right">0.0849</td>
+        <td align="right">0.153</td>
+        <td align="right">0.1047</td>
+        </tr>
+        <tr>
+        <td>Chris Stratton</td>
+        <td align="right">0.139329</td>
+        <td align="right">0.029612139</td>
+        <td align="right">0.242058861</td>
+        <td align="right">0.40848</td>
+        <td align="right">0.04492176</td>
+        <td align="right">0.09859824</td>
+        <td align="right">0.153</td>
+        <td align="right">0.1616</td>
+        <td align="right">0.126</td>
+        <td align="right">0.105</td>
+        <td align="right">0.027</td>
+        <td align="right">0.0528</td>
+        </tr>
+        <tr>
+        <td>Marco Estrada</td>
+        <td align="right">0.117602</td>
+        <td align="right">0.04662873</td>
+        <td align="right">0.29876927</td>
+        <td align="right">0.425068</td>
+        <td align="right">0.029192436</td>
+        <td align="right">0.077739564</td>
+        <td align="right">0.104</td>
+        <td align="right">0.1611</td>
+        <td align="right">0.076</td>
+        <td align="right">0.1354</td>
+        <td align="right">0.028</td>
+        <td align="right">0.0139</td>
+        </tr>
+        <tr>
+        <td>Chad Bettis</td>
+        <td align="right">0.16046</td>
+        <td align="right">0.04169022</td>
+        <td align="right">0.24984978</td>
+        <td align="right">0.394944</td>
+        <td align="right">0.046436544</td>
+        <td align="right">0.086619456</td>
+        <td align="right">0.133</td>
+        <td align="right">0.16</td>
+        <td align="right">0.096</td>
+        <td align="right">0.0957</td>
+        <td align="right">0.036</td>
+        <td align="right">0.117</td>
+        </tr>
+        <tr>
+        <td>Wily Peralta</td>
+        <td align="right">0.1022</td>
+        <td align="right">0.032214</td>
+        <td align="right">0.215586</td>
+        <td align="right">0.381789</td>
+        <td align="right">0.056998602</td>
+        <td align="right">0.092212398</td>
+        <td align="right">0.128</td>
+        <td align="right">0.158</td>
+        <td align="right">0.128</td>
+        <td align="right">0.0854</td>
+        <td align="right">0</td>
+        <td align="right">0.1227</td>
+        </tr>
+        <tr>
+        <td>Nate Jones</td>
+        <td align="right">0.102102</td>
+        <td align="right">0.03398725</td>
+        <td align="right">0.23791075</td>
+        <td align="right">0.481182</td>
+        <td align="right">0.05559264</td>
+        <td align="right">0.06022536</td>
+        <td align="right">0.213</td>
+        <td align="right">0.158</td>
+        <td align="right">0.149</td>
+        <td align="right">0.199</td>
+        <td align="right">0.064</td>
+        <td align="right">0.0254</td>
+        </tr>
+        <tr>
+        <td>Jared Hughes</td>
+        <td align="right">0.09928</td>
+        <td align="right">0.02094264</td>
+        <td align="right">0.21977736</td>
+        <td align="right">0.349792</td>
+        <td align="right">0.064671264</td>
+        <td align="right">0.129536736</td>
+        <td align="right">0.174</td>
+        <td align="right">0.1573</td>
+        <td align="right">0.109</td>
+        <td align="right">0.0552</td>
+        <td align="right">0.065</td>
+        <td align="right">0.1226</td>
+        </tr>
+        <tr>
+        <td>Wade Miley</td>
+        <td align="right">0.114955</td>
+        <td align="right">0.042906435</td>
+        <td align="right">0.257138565</td>
+        <td align="right">0.436563</td>
+        <td align="right">0.057544344</td>
+        <td align="right">0.126892656</td>
+        <td align="right">0.159</td>
+        <td align="right">0.1569</td>
+        <td align="right">0.044</td>
+        <td align="right">0.1165</td>
+        <td align="right">0.115</td>
+        <td align="right">0.0721</td>
+        </tr>
+        <tr>
+        <td>Adam Warren</td>
+        <td align="right">0.103734</td>
+        <td align="right">0.015574482</td>
+        <td align="right">0.186691518</td>
+        <td align="right">0.364038</td>
+        <td align="right">0.052111218</td>
+        <td align="right">0.081850782</td>
+        <td align="right">0.222</td>
+        <td align="right">0.1538</td>
+        <td align="right">0.089</td>
+        <td align="right">0.1134</td>
+        <td align="right">0.133</td>
+        <td align="right">0.1063</td>
+        </tr>
+        <tr>
+        <td>Aaron Brooks</td>
+        <td align="right">0.126452</td>
+        <td align="right">0.024424224</td>
+        <td align="right">0.253123776</td>
+        <td align="right">0.440192</td>
+        <td align="right">0.058900608</td>
+        <td align="right">0.108907392</td>
+        <td align="right">0.207</td>
+        <td align="right">0.1532</td>
+        <td align="right">0.063</td>
+        <td align="right">0.1077</td>
+        <td align="right">0.144</td>
+        <td align="right">0.0666</td>
+        </tr>
+        <tr>
+        <td>Dan Straily</td>
+        <td align="right">0.098644</td>
+        <td align="right">0.03051594</td>
+        <td align="right">0.23484006</td>
+        <td align="right">0.428542</td>
+        <td align="right">0.051931278</td>
+        <td align="right">0.126526722</td>
+        <td align="right">0.086</td>
+        <td align="right">0.1525</td>
+        <td align="right">0.086</td>
+        <td align="right">0.0885</td>
+        <td align="right">0</td>
+        <td align="right">0.0803</td>
+        </tr>
+        <tr>
+        <td>Zach Eflin</td>
+        <td align="right">0.130931</td>
+        <td align="right">0.046120971</td>
+        <td align="right">0.243948029</td>
+        <td align="right">0.340998</td>
+        <td align="right">0.042174594</td>
+        <td align="right">0.099827406</td>
+        <td align="right">0.205</td>
+        <td align="right">0.1516</td>
+        <td align="right">0.045</td>
+        <td align="right">0.0838</td>
+        <td align="right">0.161</td>
+        <td align="right">0.1138</td>
+        </tr>
+        <tr>
+        <td>Andrew Cashner</td>
+        <td align="right">0.132924</td>
+        <td align="right">0.026226992</td>
+        <td align="right">0.258849008</td>
+        <td align="right">0.461516</td>
+        <td align="right">0.04586778</td>
+        <td align="right">0.10961622</td>
+        <td align="right">0.147</td>
+        <td align="right">0.1511</td>
+        <td align="right">0.096</td>
+        <td align="right">0.1165</td>
+        <td align="right">0.052</td>
+        <td align="right">0.028</td>
+        </tr>
+        <tr>
+        <td>Jose Urena</td>
+        <td align="right">0.12753</td>
+        <td align="right">0.0288717</td>
+        <td align="right">0.2335983</td>
+        <td align="right">0.378471</td>
+        <td align="right">0.041461308</td>
+        <td align="right">0.123067692</td>
+        <td align="right">0.167</td>
+        <td align="right">0.1501</td>
+        <td align="right">0.06</td>
+        <td align="right">0.0778</td>
+        <td align="right">0.107</td>
+        <td align="right">0.0841</td>
+        </tr>
+        <tr>
+        <td>Antonio Senzatela</td>
+        <td align="right">0.148824</td>
+        <td align="right">0.0319176</td>
+        <td align="right">0.2872584</td>
+        <td align="right">0.422058</td>
+        <td align="right">0.040033266</td>
+        <td align="right">0.083908734</td>
+        <td align="right">0.145</td>
+        <td align="right">0.1492</td>
+        <td align="right">0.066</td>
+        <td align="right">0.1179</td>
+        <td align="right">0.079</td>
+        <td align="right">0.0252</td>
+        </tr>
+        <tr>
+        <td>Aaron Sanchez</td>
+        <td align="right">0.11715</td>
+        <td align="right">0.0352089</td>
+        <td align="right">0.2736411</td>
+        <td align="right">0.397822</td>
+        <td align="right">0.054071834</td>
+        <td align="right">0.099106166</td>
+        <td align="right">0.209</td>
+        <td align="right">0.1482</td>
+        <td align="right">0.146</td>
+        <td align="right">0.0932</td>
+        <td align="right">0.064</td>
+        <td align="right">0.0876</td>
+        </tr>
+        <tr>
+        <td>Jacob Barnes</td>
+        <td align="right">0.127444</td>
+        <td align="right">0.0294556</td>
+        <td align="right">0.2651004</td>
+        <td align="right">0.37387</td>
+        <td align="right">0.04563909</td>
+        <td align="right">0.07049091</td>
+        <td align="right">0.265</td>
+        <td align="right">0.1475</td>
+        <td align="right">0.102</td>
+        <td align="right">0.0646</td>
+        <td align="right">0.163</td>
+        <td align="right">0.0941</td>
+        </tr>
+        <tr>
+        <td>Victor Alcantara</td>
+        <td align="right">0.1302</td>
+        <td align="right">0.0472374</td>
+        <td align="right">0.2425626</td>
+        <td align="right">0.335814</td>
+        <td align="right">0.041242806</td>
+        <td align="right">0.199943194</td>
+        <td align="right">0.111</td>
+        <td align="right">0.1461</td>
+        <td align="right">0.067</td>
+        <td align="right">0.0504</td>
+        <td align="right">0.044</td>
+        <td align="right">0.0936</td>
+        </tr>
+        <tr>
+        <td>Jake Arrieta</td>
+        <td align="right">0.175212</td>
+        <td align="right">0.036677712</td>
+        <td align="right">0.259110288</td>
+        <td align="right">0.372476</td>
+        <td align="right">0.026613756</td>
+        <td align="right">0.094910244</td>
+        <td align="right">0.184</td>
+        <td align="right">0.1437</td>
+        <td align="right">0.096</td>
+        <td align="right">0.0751</td>
+        <td align="right">0.088</td>
+        <td align="right">0.0625</td>
+        </tr>
+        <tr>
+        <td>Clay Buchholz</td>
+        <td align="right">0.076235</td>
+        <td align="right">0.040483155</td>
+        <td align="right">0.278281845</td>
+        <td align="right">0.31119</td>
+        <td align="right">0.04500111</td>
+        <td align="right">0.14980889</td>
+        <td align="right">0.121</td>
+        <td align="right">0.1428</td>
+        <td align="right">0.046</td>
+        <td align="right">0.055</td>
+        <td align="right">0.076</td>
+        <td align="right">0.1076</td>
+        </tr>
+        <tr>
+        <td>Sam Dyson</td>
+        <td align="right">0.096276</td>
+        <td align="right">0.036283848</td>
+        <td align="right">0.319440152</td>
+        <td align="right">0.309071</td>
+        <td align="right">0.04637941</td>
+        <td align="right">0.11354959</td>
+        <td align="right">0.236</td>
+        <td align="right">0.1421</td>
+        <td align="right">0.055</td>
+        <td align="right">0.0485</td>
+        <td align="right">0.182</td>
+        <td align="right">0.0952</td>
+        </tr>
+        <tr>
+        <td>Heath Fillmyer</td>
+        <td align="right">0.133947</td>
+        <td align="right">0.028217717</td>
+        <td align="right">0.288835283</td>
+        <td align="right">0.398412</td>
+        <td align="right">0.037161932</td>
+        <td align="right">0.091426068</td>
+        <td align="right">0.097</td>
+        <td align="right">0.1402</td>
+        <td align="right">0.069</td>
+        <td align="right">0.099688889</td>
+        <td align="right">0.028</td>
+        <td align="right">0.0544</td>
+        </tr>
+        <tr>
+        <td>Miguel Castro</td>
+        <td align="right">0.107864</td>
+        <td align="right">0.0280136</td>
+        <td align="right">0.2521224</td>
+        <td align="right">0.37332</td>
+        <td align="right">0.0533052</td>
+        <td align="right">0.0833748</td>
+        <td align="right">0.177</td>
+        <td align="right">0.1399</td>
+        <td align="right">0.113</td>
+        <td align="right">0.0883</td>
+        <td align="right">0.065</td>
+        <td align="right">0.1084</td>
+        </tr>
+        <tr>
+        <td>Dan Otero</td>
+        <td align="right">0.13448</td>
+        <td align="right">0.01267392</td>
+        <td align="right">0.26284608</td>
+        <td align="right">0.37407</td>
+        <td align="right">0.04215669</td>
+        <td align="right">0.13877331</td>
+        <td align="right">0.102</td>
+        <td align="right">0.138</td>
+        <td align="right">0.061</td>
+        <td align="right">0.0569</td>
+        <td align="right">0.041</td>
+        <td align="right">0.0572</td>
+        </tr>
+        <tr>
+        <td>Jefry Rodriguez</td>
+        <td align="right">0.12726</td>
+        <td align="right">0.01668618</td>
+        <td align="right">0.27605382</td>
+        <td align="right">0.34104</td>
+        <td align="right">0.0426972</td>
+        <td align="right">0.1762628</td>
+        <td align="right">0.125</td>
+        <td align="right">0.1376</td>
+        <td align="right">0.042</td>
+        <td align="right">0.0382</td>
+        <td align="right">0.083</td>
+        <td align="right">0.0676</td>
+        </tr>
+        <tr>
+        <td>Junior Guerra</td>
+        <td align="right">0.106774</td>
+        <td align="right">0.04164777</td>
+        <td align="right">0.24557823</td>
+        <td align="right">0.415207</td>
+        <td align="right">0.028388113</td>
+        <td align="right">0.089404887</td>
+        <td align="right">0.115</td>
+        <td align="right">0.1353</td>
+        <td align="right">0.135</td>
+        <td align="right">0.1139</td>
+        <td align="right">-0.019</td>
+        <td align="right">0.0556</td>
+        </tr>
+        <tr>
+        <td>Shelby Miller</td>
+        <td align="right">0.160465</td>
+        <td align="right">0.03631299</td>
+        <td align="right">0.28222201</td>
+        <td align="right">0.4108</td>
+        <td align="right">0.0194376</td>
+        <td align="right">0.0897624</td>
+        <td align="right">0.096</td>
+        <td align="right">0.134</td>
+        <td align="right">0.173</td>
+        <td align="right">0.1216</td>
+        <td align="right">-0.077</td>
+        <td align="right">0.0381</td>
+        </tr>
+        <tr>
+        <td>Jimmy Yacabonis</td>
+        <td align="right">0.116137</td>
+        <td align="right">0.009000794</td>
+        <td align="right">0.227862206</td>
+        <td align="right">0.410124</td>
+        <td align="right">0.047429668</td>
+        <td align="right">0.114446332</td>
+        <td align="right">0.102</td>
+        <td align="right">0.1303</td>
+        <td align="right">0.102</td>
+        <td align="right">0.103</td>
+        <td align="right">0</td>
+        <td align="right">0.0003</td>
+        </tr>
+        <tr>
+        <td>Jason Vargas</td>
+        <td align="right">0.100548</td>
+        <td align="right">0.033561828</td>
+        <td align="right">0.207890172</td>
+        <td align="right">0.4163</td>
+        <td align="right">0.0382467</td>
+        <td align="right">0.1204533</td>
+        <td align="right">0.132</td>
+        <td align="right">0.13</td>
+        <td align="right">0.118</td>
+        <td align="right">0.0995</td>
+        <td align="right">0.013</td>
+        <td align="right">0.058</td>
+        </tr>
+        <tr>
+        <td>Sean Newcomb</td>
+        <td align="right">0.16926</td>
+        <td align="right">0.02228772</td>
+        <td align="right">0.26345228</td>
+        <td align="right">0.416052</td>
+        <td align="right">0.017932824</td>
+        <td align="right">0.112015176</td>
+        <td align="right">0.086</td>
+        <td align="right">0.1277</td>
+        <td align="right">0.138</td>
+        <td align="right">0.1118</td>
+        <td align="right">-0.052</td>
+        <td align="right">0.0433</td>
+        </tr>
+        <tr>
+        <td>Matt Koch</td>
+        <td align="right">0.103812</td>
+        <td align="right">0.02068222</td>
+        <td align="right">0.29750578</td>
+        <td align="right">0.4314</td>
+        <td align="right">0.042993</td>
+        <td align="right">0.125607</td>
+        <td align="right">0.067</td>
+        <td align="right">0.1252</td>
+        <td align="right">0.053</td>
+        <td align="right">0.1065</td>
+        <td align="right">0.013</td>
+        <td align="right">0.0145</td>
+        </tr>
+        <tr>
+        <td>Tanner Roark</td>
+        <td align="right">0.12154</td>
+        <td align="right">0.02556048</td>
+        <td align="right">0.26489952</td>
+        <td align="right">0.415044</td>
+        <td align="right">0.036034164</td>
+        <td align="right">0.097921836</td>
+        <td align="right">0.214</td>
+        <td align="right">0.1248</td>
+        <td align="right">0.098</td>
+        <td align="right">0.1175</td>
+        <td align="right">0.116</td>
+        <td align="right">0.0275</td>
+        </tr>
+        <tr>
+        <td>Brandon Kintzler</td>
+        <td align="right">0.24823</td>
+        <td align="right">0.02922125</td>
+        <td align="right">0.20454875</td>
+        <td align="right">0.38054</td>
+        <td align="right">0.029892</td>
+        <td align="right">0.119568</td>
+        <td align="right">0.237</td>
+        <td align="right">0.1241</td>
+        <td align="right">0.026</td>
+        <td align="right">0.0774</td>
+        <td align="right">0.211</td>
+        <td align="right">0.0792</td>
+        </tr>
+        <tr>
+        <td>Kyle Dowdy</td>
+        <td align="right">0.123552</td>
+        <td align="right">0.054064296</td>
+        <td align="right">0.251383704</td>
+        <td align="right">0.48032</td>
+        <td align="right">0.0453264</td>
+        <td align="right">0.0823536</td>
+        <td align="right">0.172</td>
+        <td align="right">0.1224</td>
+        <td align="right">0.172</td>
+        <td align="right">0.19</td>
+        <td align="right">0</td>
+        <td align="right">0.0249</td>
+        </tr>
+        <tr>
+        <td>David Hess</td>
+        <td align="right">0.131246</td>
+        <td align="right">0.033384384</td>
+        <td align="right">0.314369616</td>
+        <td align="right">0.374232</td>
+        <td align="right">0.027556352</td>
+        <td align="right">0.101211648</td>
+        <td align="right">0.168</td>
+        <td align="right">0.119</td>
+        <td align="right">0.065</td>
+        <td align="right">0.0732</td>
+        <td align="right">0.103</td>
+        <td align="right">0.0337</td>
+        </tr>
+        <tr>
+        <td>Bryan Shaw</td>
+        <td align="right">0.114361</td>
+        <td align="right">0.032074788</td>
+        <td align="right">0.316564212</td>
+        <td align="right">0.479336</td>
+        <td align="right">0.039011544</td>
+        <td align="right">0.053652456</td>
+        <td align="right">0.088</td>
+        <td align="right">0.1139</td>
+        <td align="right">0.123</td>
+        <td align="right">0.182</td>
+        <td align="right">-0.035</td>
+        <td align="right">0.0161</td>
+        </tr>
+        <tr>
+        <td>Wes Parsons</td>
+        <td align="right">0.117648</td>
+        <td align="right">0.032082336</td>
+        <td align="right">0.192269664</td>
+        <td align="right">0.366088</td>
+        <td align="right">0.03483196</td>
+        <td align="right">0.13508004</td>
+        <td align="right">0.233</td>
+        <td align="right">0.1111</td>
+        <td align="right">0.186</td>
+        <td align="right">0.0635</td>
+        <td align="right">0.047</td>
+        <td align="right">0.0418</td>
+        </tr>
+        <tr>
+        <td>Zach Davies</td>
+        <td align="right">0.133144</td>
+        <td align="right">0.027457584</td>
+        <td align="right">0.213398416</td>
+        <td align="right">0.37875</td>
+        <td align="right">0.0290375</td>
+        <td align="right">0.0972125</td>
+        <td align="right">0.168</td>
+        <td align="right">0.1071</td>
+        <td align="right">0.089</td>
+        <td align="right">0.0787</td>
+        <td align="right">0.08</td>
+        <td align="right">0.0581</td>
+        </tr>
+        <tr>
+        <td>CC Sabathia</td>
+        <td align="right">0.12837</td>
+        <td align="right">0.02137166</td>
+        <td align="right">0.23925834</td>
+        <td align="right">0.322239</td>
+        <td align="right">0.032331313</td>
+        <td align="right">0.106429687</td>
+        <td align="right">0.186</td>
+        <td align="right">0.1016</td>
+        <td align="right">0.068</td>
+        <td align="right">0.0972</td>
+        <td align="right">0.119</td>
+        <td align="right">0.032</td>
+        </tr>
+        <tr>
+        <td>Kyle Wright</td>
+        <td align="right">0.117453</td>
+        <td align="right">0.01676829</td>
+        <td align="right">0.22277871</td>
+        <td align="right">0.378672</td>
+        <td align="right">0.037975392</td>
+        <td align="right">0.066352608</td>
+        <td align="right">0.169</td>
+        <td align="right">0.0984</td>
+        <td align="right">0.154</td>
+        <td align="right">0.0852</td>
+        <td align="right">0.015</td>
+        <td align="right">0.0274</td>
+        </tr>
+        <tr>
+        <td>Ervin Santana</td>
+        <td align="right">0.123848</td>
+        <td align="right">0.020017272</td>
+        <td align="right">0.308134728</td>
+        <td align="right">0.36432</td>
+        <td align="right">0.03158064</td>
+        <td align="right">0.08409936</td>
+        <td align="right">0.078</td>
+        <td align="right">0.0952</td>
+        <td align="right">0.094</td>
+        <td align="right">0.0963</td>
+        <td align="right">-0.016</td>
+        <td align="right">0.0246</td>
+        </tr>
+        <tr>
+        <td>Jesse Chavez</td>
+        <td align="right">0.119002</td>
+        <td align="right">0.024551824</td>
+        <td align="right">0.254446176</td>
+        <td align="right">0.433161</td>
+        <td align="right">0.03359331</td>
+        <td align="right">0.08224569</td>
+        <td align="right">0.188</td>
+        <td align="right">0.095</td>
+        <td align="right">0.078</td>
+        <td align="right">0.1356</td>
+        <td align="right">0.109</td>
+        <td align="right">-0.0018</td>
+        </tr>
+        </tbody></table> </div> 
 </body>
 <footer class="container-fluid text-center">
   <a href="#" title="To Top">

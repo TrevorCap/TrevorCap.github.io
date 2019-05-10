@@ -31,48 +31,59 @@
   </div>
 </nav>
 </head>
-<body> 
+<body>
 <div class='container-fluid'>
-  <h2>Linear Regression</h2>  
-  <p>In order to predict the strikeout and walk rates with machine learning, we can use simple linear regression.
-        This is a simple, straightforward way of 
-        When regressing the figures with the Random Forest Regressor, we are able to predict the strikeouts, walks, and combined strikeout minus walk rates for pitchers with limited data.</p>
+  <h2>Random Forest Regressor</h2>  
+  <p>In order to predict the strikeout and walk rates we can use simple linear regression.
+        This is a simple, straightforward prediction method that is easy to understand and explain.
+        This simplicity, however can be a drawback as it cannot understand relationships that are more complex.
+        For instance, if there were diminshing returns above a certain point, a linear regression would not understand this difference.
+        It also cannot be delimited, meaning extreme samples may produce improbable results (example: a strikeout rate of 120%).
+        The results of this linear regression are found below. 
+        </p>
         <br>
         <hr>
-  <div class="media">
-    <div class="media-left">
-        <img class="img-responsive" src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lk.png" alt="Expected strikeouts in 2019" class="media-object" style="width:"px>
-    </div>
-     <div class="media-body">
-        <h4 class="media-heading"><b>Strikeout Rates</b><h4>
-            <p>For expected strikeout rates we are able to use the linear regression for data in April 2019 and come back with basically no correlation and predictions that are wildly improbable.
-              Even though logically, we know that no pitcher could have any rate stats except between 0 and 1, we end up with figures of nearly negative 200%! This prediction is functionally useless.
-            </p>
+        <div class="row">
+            <div class="col-sm-8" style="background-color:none;"><h3><b>Strikeout Rates</b></h3>
+              <p>For expected strikeout rates we are able to use the linear regression for data in April 2019 and come back with basically no correlation and predictions that are wildly improbable.
+                  Even though logically, we know that no pitcher could have any rate stats except between 0 and 1, we end up with figures of nearly negative 200%! This prediction is functionally useless.
+                </p>
+        </div>
+          <div class="col-sm-4" style="background-color:none">
+              <div class="media-right">  
+        <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lk.png" alt="Expected strikeouts in 2019" class="media-object" style="width:"px>
       </div>
+      </div>
+  
      </div>
      <hr>
-     <div class="media">
-        <div class="media-left">
-            <img class="img-responsive" src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lb.png" alt="Expected walks in 2019" class="media-object" style="width:"px>
-        </div>
-         <div class="media-body">
-            <h4 class="media-heading"><b>Walk Rates</b><h4>
-                <p>For expected walk rates we do even worse, and as a matter of fact, our correlation is actually, if anything, negative! this means that our predictions are significantly worse than random.</p>
+     <div class="row">
+        <div class="col-sm-8" style="background-color:none;"><h3><b>Walk Rates</b></h3>
+                <p>For expected walk rates we do even worse, and as a matter of fact, our correlation is actually, if anything, negative! 
+                    This means that our predictions are significantly worse than random.</p>
           </div>
-         </div>
+        
+     <div class="col-sm-4" style="background-color:none">
+        <div class="media-right">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lb.png" alt="Expected walks in 2019" class="media-object" style="width:"px>
+        </div>
+</div>
+</div>
     <hr>
-    <div class="media">
-        <div class="media-left">
-            <img class="img-responsive" src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lkb.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
-        </div>
-         <div class="media-body">
-            <h4 class="media-heading"><b>Strikeout minus Walk Rates</b><h4>
+    <div class="row">
+        <div class="col-sm-8" style="background-color:none;"><h3><b>Strikout Minus Walk Rates</b></h3>
+
             <p>Obviously, then, combining these two predictions does even worse. This line of best fit is even misleading, because visually we can see that these numbers are more or less randomly distributed among figures that would not make sense as predictions.</p>
-          </div>
+      </div>
+      <div class="col-sm-4" style="background-color:none">
+        <div class="media-right">
+            <img src="https://raw.githubusercontent.com/TrevorCap/Baseball/master/Outputs/19lkb.png" alt="Expected minus strikeouts in 2019" class="media-object" style="width:"px>
+        </div>
+         
          </div>
       <hr>
     </div>
-
+</div>
 </body>
 <footer class="container-fluid text-center">
   <a href="#" title="To Top">
